@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://fahadsid1770.github.io/sitemap.xml
+Sitemap: https://fahadsid1770.github.io//sitemap.xml
