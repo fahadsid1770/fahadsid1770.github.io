@@ -1,4 +1,4 @@
-﻿/******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. *****************************************************************************/
+/******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. *****************************************************************************/
 /******************************************************************************* Themes *****************************************************************************/
 :root { --global-bg-color: #ffffff; --global-text-color: #000000; --global-theme-color:#6f42c1; --global-hover-color: #007bff; --global-footer-bg-color: #424242; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-icon-color: #424242; }
 :root .fa-sun { display: none; }
