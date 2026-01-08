@@ -1,19 +1,12 @@
-/**
- * Masonry Layout for project cards
- */
-
-(function() {
-  var msnry;
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    // Initialize masonry if grid exists
-    var grid = document.querySelector('.grid');
-    if (grid && typeof Masonry !== 'undefined') {
-      msnry = new Masonry(grid, {
-        itemSelector: '.grid-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true
-      });
-    }
+$(document).ready(function() {
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
   });
-})();
+  // Layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+});
