@@ -322,6 +322,29 @@ code { color: var(--global-theme-color); }
 
 html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }
 
+/* Section separator styles */
+.section-separator {
+  margin: 3rem 0 2rem 0;
+  padding: 1.5rem 0;
+  position: relative;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: var(--global-text-color);
+}
+
+.section-divider {
+  height: 2px;
+  width: 40px;
+  background: #808080;
+  border-radius: 1px;
+  margin-top: 0.5rem;
+}
+
 /* Experience section styles */
 .education-section {
   display: flex;
@@ -378,5 +401,14 @@ html.transition, html.transition *, html.transition *:before, html.transition *:
   .edu-logo {
     width: 60px;
     height: 60px;
+  }
+  
+  .section-separator {
+    margin: 2.5rem 0 1.5rem 0;
+    padding: 1rem 0;
+  }
+  
+  .section-title {
+    font-size: 1.4rem;
   }
 }
