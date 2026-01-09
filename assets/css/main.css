@@ -321,3 +321,62 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 code { color: var(--global-theme-color); }
 
 html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }
+
+/* Experience section styles */
+.education-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.edu-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.edu-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edu-details {
+  flex: 1;
+  text-align: left;
+}
+
+.edu-details h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.edu-details .position {
+  margin: 0 0 1rem 0;
+  color: #666;
+}
+
+.edu-details p {
+  margin: 0.5rem 0;
+}
+
+.edu-details ul {
+  margin: 1rem 0 0 0;
+  padding-left: 20px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .edu-entry {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .edu-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
