@@ -137,11 +137,6 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
   background-color: rgba(111, 66, 193, 0.02);
 }
 
-.academic-project:focus-within {
-  outline: 2px solid var(--global-theme-color);
-  outline-offset: -2px;
-  border-radius: 4px;
-}
 
 /* Two-column layout using CSS Grid */
 .academic-project-row {
@@ -202,11 +197,6 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
   outline: none;
 }
 
-.academic-project-github:focus {
-  outline: 2px solid var(--global-theme-color);
-  outline-offset: 2px;
-  border-radius: 4px;
-}
 
 /* Tech stack */
 .academic-project-tech {
