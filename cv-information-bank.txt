@@ -1,0 +1,290 @@
+{
+  "personal_information": {
+    [cite_start]"name": "FAHAD SIDDIQUE FAISAL [cite: 3]",
+    [cite_start]"location": "Dhaka, Bangladesh [cite: 4]",
+    [cite_start]"phone": "+8801611346769 [cite: 1]",
+    [cite_start]"email": "Fahadsid1770@gmail.com [cite: 5]",
+    [cite_start]"linkedin": "linkedin.com/in/fahadsiddique 1770 [cite: 6]",
+    [cite_start]"github": "github.com/fahadsid1770 [cite: 6]",
+    [cite_start]"portfolio": "fahad-portfolio-alpha.vercel.app [cite: 7]"
+  },
+  "research_interests": [
+    [cite_start]"Human-Computer Interaction [cite: 8]",
+    [cite_start]"Machine Learning [cite: 8]",
+    [cite_start]"Deep Learning [cite: 8]",
+    [cite_start]"Natural Language Processing [cite: 8]",
+    [cite_start]"LLMs [cite: 8]",
+    [cite_start]"AI [cite: 8]"
+  ],
+  "education": [
+    {
+      [cite_start]"institution": "Chittagong University of Engineering and Technology [cite: 14]",
+      [cite_start]"degree": "Bachelor of Science in Electronics and Telecommunication Engineering [cite: 15]",
+      [cite_start]"duration": "Feb 2019 - July 2024 [cite: 21]",
+      [cite_start]"cgpa": "3.44 [cite: 22]",
+      "relevant_coursework": [
+        [cite_start]"Object-oriented Programming [cite: 23, 33]",
+        [cite_start]"C/C++ Programming [cite: 24]",
+        [cite_start]"Algorithms and Data Structures [cite: 25, 27]",
+        [cite_start]"Machine learning [cite: 26]",
+        [cite_start]"CCN [cite: 28]",
+        [cite_start]"VLSI Technology [cite: 29]",
+        [cite_start]"Multimedia [cite: 29]",
+        [cite_start]"Microcontroller [cite: 30]",
+        [cite_start]"Microprocessor [cite: 32]",
+        [cite_start]"Numerical Analysis [cite: 34]",
+        [cite_start]"Database Management [cite: 38]",
+        [cite_start]"Internet Programming [cite: 38]"
+      ]
+    },
+    {
+      [cite_start]"institution": "Pabna Cadet College [cite: 12]",
+      [cite_start]"degree": "Higher Secondary Certificate (HSC), Science Background [cite: 13]",
+      [cite_start]"duration": "2016-2018 [cite: 19]",
+      [cite_start]"gpa": "5.00 [cite: 20]"
+    },
+    {
+      [cite_start]"institution": "Pabna Cadet College [cite: 10]",
+      [cite_start]"degree": "Secondary School Certificate (SSC), Science Background [cite: 11]",
+      [cite_start]"duration": "2012-2016 [cite: 17]",
+      [cite_start]"gpa": "5.00 [cite: 18]"
+    }
+  ],
+  "experience": [
+    {
+      [cite_start]"company": "AI Solutions USA [cite: 36]",
+      [cite_start]"role": "ML/AI Engineer [cite: 37]",
+      [cite_start]"location": "New York, USA [cite: 40]",
+      [cite_start]"duration": "June 2025 - Present [cite: 39]",
+      "details": [
+        [cite_start]"Gained Proficiency in NoSQL (MongoDB) and Vector DBs (Lancedb, Qdrant, Milvus) and Production-Grade FastAPI development [cite: 41]",
+        [cite_start]"Designed a multi-agent orchestration framework with CrewAI, Instruct, and Agno to coordinate AI agents for collaborative task execution [cite: 42]",
+        [cite_start]"Gained a strong understanding of Data-processing, Chunking techniques, Indexing, and vectorizing with embedding models and RAG-Techniques [cite: 43]"
+      ]
+    },
+    {
+      [cite_start]"company": "Walton Hi-Tech Industries PLC [cite: 44]",
+      [cite_start]"role": "ML/AI Engineer & Senior Deputy Assistant Director [cite: 45]",
+      [cite_start]"location": "Kaliakoir, Chondra, Bangladesh [cite: 46]",
+      [cite_start]"duration": "Apr 2025 - Present [cite: 46]",
+      "details": [
+        [cite_start]"Developed a fully local AI-based knowledge-base and chat system using open-source AI models and Langchain and LangGraph with a Corrective-RAG pipeline, trained on internal data [cite: 47]",
+        [cite_start]"Developed a Long-term memory system for any Conversational AI [cite: 48]",
+        [cite_start]"Working on an AI-based Real-time on-device Speech Recognition and Transcription system utilizing whisper.cpp and Open-sourced LLM models [cite: 49]",
+        [cite_start]"Unlocked GPU inference capability of any LLM using PyTorch, CUDA, Llama.cpp, and containerized it using Docker for utilizing the local server's GPU rendering [cite: 50]",
+        [cite_start]"Gained proficiency in Finetuning AI models, Synthetic Data Generation, LLM Quantization [cite: 51]"
+      ]
+    },
+    {
+      [cite_start]"company": "Outlier AI [cite: 52]",
+      [cite_start]"role": "AI Data Curator [cite: 53]",
+      [cite_start]"duration": "Oct 2024 - Feb 2025 [cite: 55]",
+      "details": [
+        [cite_start]"Curated around 22GB of English to Bangla translated and Question Answering text [cite: 54]",
+        [cite_start]"Gained extensive knowledge regarding data curation and the importance of quality data for training AI models [cite: 56]",
+        [cite_start]"Gained hands-on experience in developing datasets to train transformer-based and AI models [cite: 57]"
+      ]
+    },
+    {
+      [cite_start]"company": "Riseup Labs [cite: 58]",
+      [cite_start]"role": "Software Engineer Intern [cite: 58]",
+      [cite_start]"location": "Uttara, Dhaka [cite: 59]",
+      [cite_start]"duration": "Jun 2023 - Jul 2023 [cite: 59]",
+      "details": [
+        [cite_start]"Attained hands-on experience on Software development life-cycle and understanding the role of an expert programmer in SDLC [cite: 59]"
+      ]
+    },
+    {
+      [cite_start]"company": "Sheikh Kamal IT Business Incubator, CUET [cite: 60]",
+      [cite_start]"role": "AI and Machine Learning Engineer Intern [cite: 61]",
+      [cite_start]"location": "Chittagong [cite: 62]",
+      [cite_start]"duration": "Jun 2022 - Jul 2022 [cite: 62]",
+      "details": [
+        [cite_start]"Developed Machine Learning algorithms like Regression and Classification, SVM, Neural Networks like CNN, TextCNN, RNN [cite: 63]",
+        [cite_start]"Interacted with Computer Vision concepts like Model Fusion, Image Color Conversion, CNN with sequential API and functional API [cite: 64]",
+        [cite_start]"Implemented Natural Language Processing models like LSTMs and Pretrained Word Embeddings like Word2Vec, GloVe, FastText [cite: 65]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      [cite_start]"title": "Walton-AI: A Secure, In-House AI Assistant and AI-based Knowledge Management [cite: 67]",
+      [cite_start]"technologies": "Python, Langchain [cite: 68]",
+      [cite_start]"year": "2025 [cite: 69]",
+      "details": [
+        [cite_start]"Optimized a high-performance RAG pipeline utilizing the Llama-3.2-3B LLM, achieving a 70% reduction in memory requirements (from 12GB to 3.5GB) using 8-bit quantization (llama.cpp backed) while maintaining 99.5% of the original model's performance [cite: 70]",
+        [cite_start]"Boosted organizational productivity by reducing employee knowledge search time from 20 minutes to seconds, saving thousands of work-hours monthly and accelerating customer issue resolution [cite: 71]",
+        [cite_start]"A secure, 100% on local servers, thereby eliminating the critical risk of confidential data leakage [cite: 72]"
+      ]
+    },
+    {
+      [cite_start]"title": "Real Time Image Pattern Detection and Recognition using OpenCV and CLIP Embeddings [cite: 74]",
+      [cite_start]"technologies": "OpenCV, CLIP [cite: 74]",
+      [cite_start]"year": "2025 [cite: 73]",
+      "details": [
+        [cite_start]"Integrated Multi-Modal AI Pipeline: Developed an end-to-end computer vision system combining YOLOv8 for real-time refrigerator detection, CLIP embeddings for feature extraction, and Qdrant vector database for similarity search, enabling accurate pattern recognition across video streams with confidence scoring [cite: 74]"
+      ]
+    },
+    {
+      [cite_start]"title": "Development of a 400M Parameter Small Language Model with Function-Calling and ONNX Deployment [cite: 76]",
+      [cite_start]"year": "2025 [cite: 75]",
+      "details": [
+        [cite_start]"Constructed from scratch a 400M-parameter language model incorporating function-calling capabilities, followed by ONNX-based model conversion and inference optimization to enable efficient experimentation and deployment in constrained environments [cite: 77]"
+      ]
+    },
+    {
+      [cite_start]"title": "Page Wise - RAG based Question answering Chatbot [cite: 78]",
+      [cite_start]"technologies": "Ollama, llama3.2, OpenAI, Pinecone, Langchain [cite: 78]",
+      [cite_start]"year": "2024 [cite: 94]",
+      "details": [
+        [cite_start]"Can import and save entire PDF data into a Pinecone or Faiss vector database [cite: 79]",
+        [cite_start]"Both OpenAI and llama3.2 text embedding can be used for better Semantic Understanding and Efficient Similarity search into a vector database [cite: 80]",
+        [cite_start]"Implemented using Langchain incorporation with OpenAI's GPT4o API and llama3.2 through Ollama locally [cite: 81]"
+      ]
+    },
+    {
+      [cite_start]"title": "Multi-class Bangla News Classification using Early Fusion and Late Fusion [cite: 82]",
+      [cite_start]"technologies": "Python, Bi-LSTM, CNN [cite: 82]",
+      [cite_start]"year": "2022 [cite: 93]",
+      "details": [
+        [cite_start]"Cleaned, Normalized, and Processed multiple Bangla News datasets by Bangla Tokenizer and Pad Sequence [cite: 83]",
+        [cite_start]"Implemented Late Fusion by concatenating the output of BiLSTM, CNN, and BiLSTM+CNN [cite: 84]",
+        [cite_start]"Implemented Early Fusion with BiLSTM, CNN, and LSTM+CNN [cite: 84]",
+        [cite_start]"Tuned hyper-parameters like learning rate, batch size, and optimizer for finding better results [cite: 85]"
+      ]
+    }
+  ],
+  "undergraduate_thesis": {
+    [cite_start]"title": "Investigation and Transforming Resource-Scarce Language Question Generation: A Study on Text-to-Text Transformer Models for Bengali [cite: 87, 88]",
+    [cite_start]"technologies": "Huggingface Transformers [cite: 89]",
+    [cite_start]"year": "2024 [cite: 92]",
+    "details": [
+      [cite_start]"Developed and improved an automatic FAQ generation system using text-to-text transformer models to enhance Question Generation (QG) in multilingual contexts [cite: 90]",
+      [cite_start]"Fine-tuned custom multilingual transformer-based models in a low-resource setting [cite: 91]"
+    ]
+  },
+  "researches_and_publications": [
+    {
+      [cite_start]"title": "Optimizing Resource-Scarce Language Question Generation on Bengali: A Comparative Study of Transformer-Based Models [cite: 96, 97]",
+      [cite_start]"technologies": "Huggingface, Kaggle [cite: 98]",
+      [cite_start]"year": "2024 [cite: 99]",
+      "details": [
+        [cite_start]"Developed an automatic FAQ generation system using text-to-text transformer models to enhance Question Generation (QG) in multilingual contexts [cite: 100]",
+        [cite_start]"Achieved Rouge 37.225, SacreBLEU 14.202, and METEOR 0.216 with a bn-TOK + mT5-base + Beam Search model, ensuring lexical accuracy, coherence, and semantic relevance [cite: 101]"
+      ]
+    },
+    {
+      [cite_start]"title": "Enhancing Bilingual Sarcasm Detection with an Advanced Ensemble Model: A Dual-Language Deep Learning Framework [cite: 102, 103]",
+      [cite_start]"technologies": "Python, Colab [cite: 104]",
+      [cite_start]"year": "2024 [cite: 110]",
+      "details": [
+        [cite_start]"Developed a Bilingual Sarcasm Detection model using an ensemble of BiLSTM and GRU to capture contextual dependencies in English and Bengali text [cite: 105]",
+        [cite_start]"Achieved 97% and 89% accuracy on a news headline dataset and BanglaSARC dataset, leveraging pretrained word embeddings like Word2Vec and FastText [cite: 106]"
+      ]
+    },
+    {
+      [cite_start]"title": "Design and Comparative Analysis of 1-BIT ALU and Full Adder using MGDI Technique for High-Performance PLC Applications [cite: 107]",
+      [cite_start]"technologies": "Python [cite: 108]",
+      [cite_start]"year": "2024 [cite: 111]",
+      "details": [
+        [cite_start]"Designed a programmable logic controller (PLC) circuit using Modified Gate Diffusion Input (MGDI) technique for high-speed, low-power applications in 90nm technology [cite: 109]",
+        [cite_start]"Reduced transistor count by 58% (from 128 to 54 transistors) compared to conventional PLC units, optimizing chip area and power dissipation [cite: 112]",
+        [cite_start]"Simulated and validated the design in Cadence Virtuoso, integrating 1-BIT ALU, 10-T Full Adder, and NAND logic with multiplexer-based selection [cite: 113]"
+      ]
+    }
+  ],
+  "ongoing_research_projects": [
+    {
+      [cite_start]"title": "Distilled Neural Radiologist: Student-Teacher Light Vision-Language Models Leveraging LLAMA 3.2 11B for Explainable, High-Fidelity Chest X-Ray Interpretation and Autonomous Clinical Reporting [cite: 115, 116]",
+      [cite_start]"technologies": "llama.cpp, Python [cite: 116]",
+      [cite_start]"year": "2025 [cite: 117]",
+      "details": [
+        [cite_start]"The combination of structured visual classification via EfficientNetB7 (achieving 99.1% accuracy) and multimodal reasoning through the LLaMA 3.2 Vision-Instruct model successfully produces reliable, clinically coherent, and contextually fluent automated radiology reports, demonstrated by a strong METEOR score of 0.657 and a low Perplexity value of 2.31 [cite: 118]"
+      ]
+    },
+    {
+      [cite_start]"title": "A Federated and Explainable Machine Learning Framework for Robust Intrusion Detection and Network Security Enhancement in Industrial Internet of Things (IoT) Environments [cite: 119]",
+      [cite_start]"technologies": "Federated learning, XAI, IoT [cite: 119]",
+      [cite_start]"year": "2025 [cite: 120]",
+      "details": [
+        [cite_start]"The synergy of the proposed Federated and Explainable Hybrid XGB-LGBM framework resulted in remarkable IoT intrusion detection performance, achieving the highest metrics (F1-score of 0.9374 and 93.71% accuracy) while simultaneously guaranteeing model transparency (via SHAP analysis) and data privacy across distributed industrial nodes [cite: 121]"
+      ]
+    },
+    {
+      [cite_start]"title": "Conversational AI Model for the Medical Domain Adapted Using QLoRA on Qwen2-0.5B [cite: 123]",
+      [cite_start]"technologies": "SLM, AI, QLora [cite: 124]",
+      [cite_start]"year": "2025 [cite: 122]",
+      "details": [
+        [cite_start]"The project adapts the model using the ruslanmv/ai-medical-chatbot dataset of patient-doctor conversations, optimizing training with cosine scheduling, gradient accumulation, and Hugging Face integration [cite: 124]",
+        [cite_start]"Ongoing work involves evaluating domain accuracy and deploying the adapter for real-world medical assistance scenarios [cite: 125]"
+      ]
+    }
+  ],
+  "technical_skills": {
+    [cite_start]"programming_languages": ["C", "C++", "Python", "JavaScript", "SQL", "NoSQL", "Matlab [cite: 127]"],
+    [cite_start]"machine_learning": ["Scikit-learn", "Keras", "TensorFlow", "PyTorch [cite: 127]"],
+    [cite_start]"data_science": ["Pandas", "NumPy", "Matplotlib [cite: 128]"],
+    [cite_start]"electronics": ["Cadence", "Logisim", "CST", "Livewire", "Proteus [cite: 129]"],
+    [cite_start]"network_analysis": ["Packet Tracer", "HTML", "CSS [cite: 130]"],
+    [cite_start]"technologies_frameworks": ["Linux", "Git", "GitHub", "Tailwind CSS", "React", "Firebase [cite: 131]"],
+    [cite_start]"developer_tools": ["Cursor VS Code", "AWS", "ONNX [cite: 131]"]
+  },
+  "achievements": [
+    {
+      [cite_start]"title": "AI Creative Award [cite: 133]",
+      [cite_start]"issuer": "Walton Hi-Tech Industries PLC [cite: 134]",
+      [cite_start]"date": "Sept, 2025 [cite: 145]",
+      [cite_start]"location": "Dhaka [cite: 145]",
+      "details": [
+        [cite_start]"Champion among 170 Engineering Team Participating: AI-based Smart Recommendation System [cite: 135]",
+        [cite_start]"7th-Position: Walton-AI: Secure and Local Knowledge management system [cite: 136]"
+      ]
+    },
+    {
+      [cite_start]"title": "Best Technical Paper in a session on Artificial Intelligence [cite: 137]",
+      [cite_start]"issuer": "27th International Conference on Computer and Information Technology [cite: 138]",
+      [cite_start]"date": "Dec, 2024 [cite: 147]",
+      [cite_start]"location": "Long Beach Hotel, Cox's Bazar [cite: 148]"
+    },
+    {
+      "title": "Govt. [cite_start]Scholarship for Academic excellence (Higher Secondary Level) [cite: 139, 140]",
+      [cite_start]"issuer": "Rajshahi Board, Rajshahi [cite: 149]",
+      [cite_start]"date": "2018 [cite: 146]"
+    },
+    {
+      "title": "Govt. [cite_start]Scholarship for Academic excellence (Secondary Level) [cite: 141]",
+      [cite_start]"issuer": "Rajshahi Board, Rajshahi [cite: 151]",
+      [cite_start]"date": "2016 [cite: 150]"
+    }
+  ],
+  "leadership_and_extracurricular": [
+    {
+      [cite_start]"organization": "CUET Debating Society [cite: 143]",
+      [cite_start]"role": "Vice-President [cite: 144]",
+      [cite_start]"duration": "July, 2023 - Sept, 2024 [cite: 152]",
+      [cite_start]"location": "Chittagong University of Engineering and Technology [cite: 153]",
+      "details": [
+        [cite_start]"Arranged a National Level Inter-University Debate Competition and Cultural Program [cite: 154]"
+      ]
+    },
+    {
+      [cite_start]"organization": "House of the Language and Literature [cite: 155]",
+      [cite_start]"role": "Organizing Secretary [cite: 156]",
+      [cite_start]"duration": "August, 2023 - Sept, 2024 [cite: 157]",
+      [cite_start]"location": "Chittagong University of Engineering and Technology [cite: 158]",
+      "details": [
+        [cite_start]"Arranged a National Level Inter-University Debate Competition and Cultural Program [cite: 159]"
+      ]
+    },
+    {
+      [cite_start]"organization": "Infixion [cite: 160]",
+      [cite_start]"role": "Program Co-ordinator [cite: 161]",
+      [cite_start]"year": "2024 [cite: 162]",
+      [cite_start]"location": "Chittagong University of Engineering and Technology [cite: 163]",
+      "details": [
+        [cite_start]"Arranged a National Level Inter-University Programming and Machine Learning Contest, FIFA Gaming contest [cite: 164]",
+        [cite_start]"Performed anchoring in the Ceremonial and Cultural Show [cite: 164]"
+      ]
+    }
+  ]
+}

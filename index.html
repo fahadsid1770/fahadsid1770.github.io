@@ -1,459 +1,841 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177224797-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-177224797-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-177224797-1');
-</script>
+      gtag("config", "UA-177224797-1");
+    </script>
 
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<title>Eftekhar Hossain</title>
-<!--<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.">  -->
+    <title>Fahad Siddique Faisal</title>
+    <!--<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.">  -->
 
-<!-- Open Graph -->
-<meta property="og:title" content="Eftekhar Hossain – CS PhD Student" />
-<meta property="og:description" content=" Researcher in NLP and multimodal AI." />
-<meta property="og:url" content="https://eftekhar-hossain.github.io/" />
-<meta property="og:type" content="Homepage" />
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Fahad Siddique Faisal – ML/AI Engineer"
+    />
+    <meta
+      property="og:description"
+      content=" Researcher in NLP and multimodal AI."
+    />
+    <meta property="og:url" content="https://fahadsid1770.github.io/" />
+    <meta property="og:type" content="Homepage" />
 
+    <!-- Bootstrap & MDB -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q=="
+      crossorigin="anonymous"
+    />
 
-<!-- Bootstrap & MDB -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+    <!-- Fonts & Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css"
+      integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons"
+    />
 
-<!-- Fonts & Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    <!-- Code Syntax Highlighting -->
+    <!--  <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://github.com/jwarby/jekyll-pygments-themes/blob/master/github.css"
+    />
+    <!-- Styles -->
+    <link
+      rel="shortcut icon"
+      href="https://fahadsid1770.github.io/assets/img/favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fahadsid1770.github.io/assets/css/main.css"
+    />
 
-<!-- Code Syntax Highlighting -->
-<!--  <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" /> -->
-<link rel="stylesheet" href="https://github.com/jwarby/jekyll-pygments-themes/blob/master/github.css" /> 
-<!-- Styles -->
-<link rel="shortcut icon" href="https://eftekhar-hossain.github.io/assets/img/favicon.png">
-<link rel="stylesheet" href="https://eftekhar-hossain.github.io/assets/css/main.css">
+    <link rel="canonical" href="https://fahadsid1770.github.io/" />
 
-<link rel="canonical" href="https://eftekhar-hossain.github.io/">
+    <!-- JQuery -->
+    <!-- jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
 
-<!-- JQuery -->
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <!-- Theming-->
 
+    <script src="https://fahadsid1770.github.io/assets/js/theme.js"></script>
+    <!-- Load DarkMode JS -->
+    <script src="https://fahadsid1770.github.io/assets/js/dark_mode.js"></script>
 
-<!-- Theming-->
-
-  <script src="https://eftekhar-hossain.github.io/assets/js/theme.js"></script>
-  <!-- Load DarkMode JS -->
-<script src="https://eftekhar-hossain.github.io/assets/js/dark_mode.js"></script>
-
-
-
-
-
-
-    
-<!-- MathJax -->
-<script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      tags: 'ams'
-    }
-  };
-</script>
-<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
-<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-
+    <!-- MathJax -->
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          tags: "ams",
+        },
+      };
+    </script>
+    <script
+      defer
+      type="text/javascript"
+      id="MathJax-script"
+      src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"
+    ></script>
+    <script
+      defer
+      src="https://polyfill.io/v3/polyfill.min.js?features=es6"
+    ></script>
   </head>
 
-  <body class="fixed-top-nav ">
-
+  <body class="fixed-top-nav">
     <!-- Header -->
 
     <header>
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <!-- Navbar Brand -->
+          <div class="navbar-brand social">
+            <a href="mailto:Fahadsid1770@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+            <a
+              href="https://scholar.google.com/citations?user=JWF9rJIAAAAJ&hl=en"
+              target="_blank"
+              title="Google Scholar"
+              ><i class="ai ai-google-scholar"></i
+            ></a>
+            <a
+              href="https://github.com/fahadsid1770"
+              target="_blank"
+              title="GitHub"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/fahadsiddique1770/"
+              target="_blank"
+              title="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
 
-    <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-    <div class="container">
+          <!-- Navbar Toggle -->
+          <button
+            class="navbar-toggler collapsed ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+              <!-- About -->
+              <li class="nav-item active">
+                <a class="nav-link" href="https://eftekhar-hossain.github.io">
+                  About
 
-       <!-- Navbar Brand -->
-      <div class="navbar-brand social"> 
-       <a href="mailto:eftekhar.hossain@cuet.ac.bd"><i class="fas fa-envelope"></i></a>
-       <a href="https://scholar.google.com/citations?user=JWF9rJIAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-       <a href="https://github.com/eftekhar-hossain" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-       <a href="https://www.linkedin.com/in/eftekhar-hossain-6b16681b5/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      
-      </div>
-      
-      <!-- Navbar Toggle -->
-      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar top-bar"></span>
-        <span class="icon-bar middle-bar"></span>
-        <span class="icon-bar bottom-bar"></span>
-      </button>
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-          <!-- About -->
-          <li class="nav-item active">
-            <a class="nav-link" href="https://eftekhar-hossain.github.io">
-              About
-              
-                <span class="sr-only">(current)</span>
-              
-            </a>
-          </li>
-          
-          <!-- Blog 
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+
+              <!-- Blog 
           <li class="nav-item ">
-            <a class="nav-link" href="https://eftekhar-hossain.github.io/blog/">
+            <a class="nav-link" href="https://fahadsid1770.github.io/blog/">
               blog
               
             </a>
           </li>
           -->
-          <!-- Other pages -->
-          
-          
-          
-          
-          
-     
-          
-       
-          
-          <li class="nav-item ">
-              <a class="nav-link" href="https://eftekhar-hossain.github.io/publications/">
-                Research
-                
-              </a>
-          </li>
-          
-          
-          
-          <li class="nav-item ">
-              <a class="nav-link" href="https://eftekhar-hossain.github.io/experience/">
-                Experience
-                
-              </a>
-          </li>
-          
-        
-          
-          
-          
-          <li class="nav-item ">
-              <a class="nav-link" href="https://eftekhar-hossain.github.io/teaching/">
-                Miscellaneous
-                
-              </a>
-          </li>
-          
-            <!-- CV link -->
-          
-           <li class="nav-item ">
-              <a class="nav-link" href="https://eftekhar-hossain.github.io/assets/pdf/CV.pdf" target = "_blank">CV</a>
-       
-          </li>
-          
-          
-          
-        </ul>
-      </div>
-    </div>
-  </nav>
+              <!-- Other pages -->
 
-</header>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://fahadsid1770.github.io/publications/"
+                >
+                  Research
+                </a>
+              </li>
 
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://fahadsid1770.github.io/experience/"
+                >
+                  Experience
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://fahadsid1770.github.io/teaching/"
+                >
+                  Miscellaneous
+                </a>
+              </li>
+
+              <!-- CV link -->
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://fahadsid1770.github.io/assets/pdf/CV.pdf"
+                  target="_blank"
+                  >CV</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- Content -->
 
     <div class="container mt-5">
       <div class="post">
+        <header class="post-header">
+          <h1 class="post-title" style="padding-bottom: 10px">
+            <span class="font-weight-bold">Fahad Siddique</span> Faisal
+          </h1>
+          <!-- <p class="desc"><span style = "color:purple">Assistant Professor.</span></p>  -->
+        </header>
 
-  <header class="post-header">
-    <h1 class="post-title"  style="padding-bottom:10px" >
-     <span class="font-weight-bold">Eftekhar</span> Hossain
-    </h1>
-    <!-- <p class="desc"><span style = "color:purple">Assistant Professor.</span></p>  -->
-  </header>
+        <article>
+          <div class="profile float-right">
+            <img
+              class="img-fluid z-depth-1 rounded"
+              src="https://fahadsid1770.github.io/assets/img/prof-pic3.jpg"
+            />
 
-  <article>
-    
-    <div class="profile float-right">
-      
-        <img class="img-fluid z-depth-1 rounded" src="https://eftekhar-hossain.github.io/assets/img/prof-pic3.jpg">
-      
-      
-       <!-- <div class="address">
+            <!-- <div class="address">
           <p>555 your office number</p> <p>123 your address street</p> <p>Your City, State 12345</p>
 
         </div>
       -->
-    </div>
-    
+          </div>
 
-    <div class="clearfix">
-      <p style="text-align:justify"> <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> <strong>Bio</strong>: 
-        Hi, I'm Eftekhar, <span style="color:#212529; font-style: oblique;font-family:Georgia">a first-year CS PhD student at the University of Central Florida, USA</span>. At UCF, I am a part of the <a href ="https://karmake2.github.io/" target = "\_blank"> Bridge-AI Lab</a>. 
-        <!-- I served as an Assistant Professor in the Dept. of Electronics and Telecommunication Engineering (ETE) at Chittagong University of Engineering and Technology (CUET), Bangladesh. 
-        Before that, I was a Lecturer in the Dept. of EEE at Premier University, Bangladesh. -->
-        Previously, I did my MSc (2023) and BSc (2018) in Electronics and Telecommunication Engineering (ETE) from Chittagong University of Engineering and Technology (CUET), Bangladesh. I was a research member of 
-        CUET NLP Lab from 2021-2024, where I had the privilege to work
-        with <a href ="https://scholar.google.com/citations?hl=en&user=srYxYhcAAAAJ&view_op=list_works&sortby=pubdate" target = "\_blank"> Prof. Dr. M. Moshiul Hoque </a> and <a href ="https://omar-sharif03.github.io/" target = "\_blank"> Omar Sharif</a>. </p>
+          <div class="clearfix">
+            <p style="text-align: justify">
+              <img
+                class="emoji"
+                title=":wave:"
+                alt=":wave:"
+                src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png"
+                height="20"
+                width="20"
+              />
+              <strong>Bio</strong>: Hi, I'm Fahad Siddique Faisal,
+              <span
+                style="
+                  color: #212529;
+                  font-style: oblique;
+                  font-family: Georgia;
+                "
+                >an ML/AI Engineer based in Dhaka, Bangladesh</span
+              >. I hold a BSc from CUET (2019-2024) with a CGPA of 3.44. My
+              research interests include Human-Computer Interaction, Machine
+              Learning, Deep Learning, Natural Language Processing, LLMs, and
+              AI. Currently, I work as an ML/AI Engineer at Walton Hi-Tech
+              Industries PLC and AI Solutions USA, developing AI systems.
+            </p>
 
+            <p style="text-align: justify">
+              🌲<strong>Research Interests</strong>: My primary research
+              interest lies at the intersection of
+              <code class="language-plaintext highlighter-rouge"
+                >machine learning</code
+              >,
+              <code class="language-plaintext highlighter-rouge"
+                >natural language processing</code
+              >, and
+              <code class="language-plaintext highlighter-rouge"
+                >computer vision</code
+              >. My current work specifically focuses on text summarization,
+              which is driven by a core question:
+              <span style="font-style: italic; font-family: Times New Roman">
+                How can we leverage Large Language Models (LLMs) to understand
+                and retrieve complex information from multi-perspective
+                narratives, and construct a coherent alternative narrative from
+                fragmented key information units scattered across those
+                narratives, in a constraint-guided manner, to support better
+                decision-making in urgent scenarios?
+              </span>
 
-       <p style="text-align:justify">🌲<strong>Research Interests</strong>: My primary research interest lies at the intersection of <code class="language-plaintext highlighter-rouge">machine learning</code>, 
-        <code class="language-plaintext highlighter-rouge">natural language processing</code>, and <code class="language-plaintext highlighter-rouge">computer vision</code>. My current work specifically focuses on text summarization, which is driven by a core question: 
-         <span style="font-style: italic; font-family: Times New Roman;"> How can we leverage Large Language Models (LLMs) to understand and retrieve complex information from multi-perspective narratives, and construct a coherent alternative narrative from fragmented key information units scattered across those narratives, in a constraint-guided manner, to support better decision-making in urgent scenarios? </span>
-         
-        In my earlier research, I spent time on developing resources and computational models for Multilingual NLP with an emphasis on <code class="language-plaintext highlighter-rouge">Multimodality</code> in machine learning. 
-        My work aimed to develop benchmarks and techniques for effectively integrating the information of multiple modalities (i.e., image, text) and 
-        jointly evaluating them to solve complex language and vision problems in low-resource scenarios.</p>
-         
-      <!-- Besides, I am enthusiastic about exploring how we can distill the knowledge of high-resource languages to develop or improve the efficiency of computational tools 
-        for resource-constrained languages.--> 
+              In my earlier research, I spent time on developing resources and
+              computational models for Multilingual NLP with an emphasis on
+              <code class="language-plaintext highlighter-rouge"
+                >Multimodality</code
+              >
+              in machine learning. My work aimed to develop benchmarks and
+              techniques for effectively integrating the information of multiple
+              modalities (i.e., image, text) and jointly evaluating them to
+              solve complex language and vision problems in low-resource
+              scenarios.
+            </p>
 
+            <!-- Besides, I am enthusiastic about exploring how we can distill the knowledge of high-resource languages to develop or improve the efficiency of computational tools 
+        for resource-constrained languages.-->
+          </div>
 
-    </div>
+          <div
+            class="news"
+            style="
+              text-align: justify;
+              height: 280px;
+              overflow: hidden;
+              padding-right: 10px;
+            "
+          >
+            <!-- Fixed Header -->
+            <div
+              style="
+                position: sticky;
+                top: 0;
+                background-color: white;
+                z-index: 1;
+                padding: 10px 0;
+                border-bottom: 1px dashed #ddd;
+              "
+            >
+              <h2 style="margin: 0">News</h2>
+            </div>
 
-    
-  <div class="news" style = "text-align:justify; height:280px;overflow: hidden; padding-right:10px">
-        
-        <!-- Fixed Header -->
-        <div style="position: sticky; top: 0; background-color: white; z-index: 1; padding: 10px 0; border-bottom: 1px dashed #ddd;">
-          <h2 style="margin: 0;">News</h2>
-        </div>
-        
-     <!-- Scrollable Content -->
-    <div style="height:240px; overflow-y: scroll; padding-right:10px;">
-    
-    <div class="table-responsive" style = "padding-top:10px">
-      <table class="table table-sm table-borderless">
+            <!-- Scrollable Content -->
+            <div style="height: 240px; overflow-y: scroll; padding-right: 10px">
+              <div class="table-responsive" style="padding-top: 10px">
+                <table class="table table-sm table-borderless">
+                  <tr>
+                    <th scope="row">17 May, 25</th>
+                    <td>
+                      💥 Two papers (<a
+                        href="https://aclanthology.org/2025.findings-acl.622.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >FIHA</a
+                      >,
+                      <a
+                        href="https://aclanthology.org/2025.findings-acl.915.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >BenNumEval</a
+                      >) accepted at
+                      <a href="https://2025.aclweb.org/" target="_blank"
+                        ><b>ACL'25</b></a
+                      >.
+                    </td>
+                  </tr>
 
-        <tr>
-          <th scope="row">17 May, 25</th>
-          <td> 
-           💥 Two papers (<a href = "https://aclanthology.org/2025.findings-acl.622.pdf" target = "_blank" style="color:green; font-weight:bold;">FIHA</a>, <a href = "https://aclanthology.org/2025.findings-acl.915.pdf" target = "_blank" style="color:green; font-weight:bold;">BenNumEval</a>) accepted at <a href = "https://2025.aclweb.org/" target = "_blank"><b>ACL'25</b></a>.
-          </td>
-          
-        </tr>
+                  <tr>
+                    <th scope="row">10 Feb, 25</th>
+                    <td>
+                      💥📢 One of our paper has been accepted at
+                      <a href="https://2025.naacl.org/" target="_blank"
+                        ><b>NAACL'25</b></a
+                      >.
+                      <a
+                        href="https://arxiv.org/abs/2402.15589"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >[<u>Paper</u>]</a
+                      >
+                      <a
+                        href="https://github.com/BridgeAI-Lab/LLM-as-Meta-Reviewer"
+                        target="_blank"
+                        style="color: Crimson; font-weight: bold"
+                        >[<u>Code</u>]</a
+                      >
+                    </td>
+                  </tr>
 
-         <tr>
-          <th scope="row">10 Feb, 25</th>
-          <td> 
-           💥📢 One of our paper has been accepted at <a href = "https://2025.naacl.org/" target = "_blank"><b>NAACL'25</b></a>. <a href = "https://arxiv.org/abs/2402.15589" target = "_blank" style="color:green; font-weight:bold;">[<u>Paper</u>]</a> <a href = "https://github.com/BridgeAI-Lab/LLM-as-Meta-Reviewer" target = "_blank" style="color:Crimson; font-weight:bold;">[<u>Code</u>]</a>
-          </td>
-          
-        </tr>
+                  <tr>
+                    <th scope="row">19 Aug, 24</th>
+                    <td>
+                      🏂 Started PhD in Computer Science at
+                      <a
+                        href="https://www.google.com/search?q=UCF&oq=UCF&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7Mg0IAhAuGIMBGLEDGIAEMg0IAxAuGIMBGLEDGIAEMgYIBBBFGEEyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg0MjA4ajBqMagCCLACAQ&sourceid=chrome&ie=UTF-8"
+                        target="_blank"
+                        ><b>UCF</b></a
+                      >, USA.
+                    </td>
+                  </tr>
 
-        <tr>
-          <th scope="row">19 Aug, 24</th>
-          <td> 
-           🏂 Started PhD in Computer Science at <a href = "https://www.google.com/search?q=UCF&oq=UCF&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7Mg0IAhAuGIMBGLEDGIAEMg0IAxAuGIMBGLEDGIAEMgYIBBBFGEEyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg0MjA4ajBqMagCCLACAQ&sourceid=chrome&ie=UTF-8" target = "_blank"><b>UCF</b></a>, USA. 
-          </td>
-          
-        </tr>
+                  <tr>
+                    <th scope="row">15 May, 24</th>
+                    <td>
+                      ✨😊🎺 One paper is accepted at main track of
+                      <a href="https://2024.aclweb.org/" target="_blank"
+                        ><b>ACL'24</b></a
+                      >.
+                      <a
+                        href="https://arxiv.org/abs/2403.10829"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >[<u>Paper</u>]</a
+                      >
+                      <a
+                        href="https://github.com/eftekhar-hossain/Bengali-Hateful-Memes"
+                        target="_blank"
+                        style="color: Crimson; font-weight: bold"
+                        >[<u>Code</u>]</a
+                      >
+                    </td>
+                  </tr>
 
-         <tr>
-          <th scope="row">15 May, 24</th>
-          <td> 
-           ✨😊🎺 One paper is accepted at main track of <a href = "https://2024.aclweb.org/" target = "_blank"><b>ACL'24</b></a>. <a href = "https://arxiv.org/abs/2403.10829" target = "_blank" style="color:green; font-weight:bold;">[<u>Paper</u>]</a> <a href = "https://github.com/eftekhar-hossain/Bengali-Hateful-Memes" target = "_blank" style="color:Crimson; font-weight:bold;">[<u>Code</u>]</a>
-          </td>
-          
-        </tr>
+                  <tr>
+                    <th scope="row">20 Jan, 24</th>
+                    <td>
+                      🔥✨ One paper accepted at main track of
+                      <a href="https://2024.eacl.org/" target="_blank"
+                        ><b>EACL'24</b></a
+                      >.
+                      <a
+                        href="https://aclanthology.org/2024.eacl-long.153/"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >[<u>Paper</u>]</a
+                      >
+                      <a
+                        href="https://github.com/shawlyahsan/Bengali-Aggression-Memes"
+                        target="_blank"
+                        style="color: Crimson; font-weight: bold"
+                        >[<u>Code</u>]</a
+                      >
+                    </td>
+                  </tr>
 
-        <tr>
-          <th scope="row">20 Jan, 24</th>
-          <td> 
-           🔥✨ One paper accepted at main track of <a href = "https://2024.eacl.org/" target = "_blank"><b>EACL'24</b></a>. <a href = "https://aclanthology.org/2024.eacl-long.153/" target = "_blank" style="color:green; font-weight:bold;">[<u>Paper</u>]</a> <a href = "https://github.com/shawlyahsan/Bengali-Aggression-Memes" target = "_blank" style="color:Crimson; font-weight:bold;">[<u>Code</u>]</a>
-          </td>
-          
-        </tr>
+                  <tr>
+                    <th scope="row">17 Jan, 24</th>
+                    <td>
+                      📢 One paper on Hateful Memes accepted at
+                      <a
+                        href="https://sites.google.com/view/eacl2024srw/homepage?authuser=0"
+                        target="_blank"
+                        ><b>EACL-SRW-2024</b></a
+                      >.
+                      <a
+                        href="https://arxiv.org/abs/2402.09738"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >[<u>Paper</u>]</a
+                      >
+                      <a
+                        href="https://github.com/eftekhar-hossain/Bengali-Hateful-Memes/tree/main"
+                        target="_blank"
+                        style="color: Crimson; font-weight: bold"
+                        >[<u>Code</u>]</a
+                      >
+                    </td>
+                  </tr>
 
-       
+                  <tr>
+                    <th scope="row">28 Aug, 23</th>
+                    <td>
+                      Wins 20k BDT Prize for Best Research Publication at
+                      Research Fair 2023, Organized by CUET.
+                      <a
+                        href="https://fahadsid1770.github.io/assets/pdf/Best Research Award.pdf"
+                        target="_blank"
+                        style="color: blue"
+                      >
+                        [<u>Certificate</u>]</a
+                      >
+                    </td>
+                  </tr>
 
-         <tr>
-          <th scope="row">17 Jan, 24</th>
-          <td> 
-           📢 One paper on Hateful Memes accepted at <a href = "https://sites.google.com/view/eacl2024srw/homepage?authuser=0" target = "_blank"><b>EACL-SRW-2024</b></a>. <a href = "https://arxiv.org/abs/2402.09738" target = "_blank" style="color:green; font-weight:bold;">[<u>Paper</u>]</a> <a href = "https://github.com/eftekhar-hossain/Bengali-Hateful-Memes/tree/main" target = "_blank" style="color:Crimson; font-weight:bold;">[<u>Code</u>]</a>
-          </td>
-          
-        </tr>
-        
+                  <tr>
+                    <th scope="row">07 June, 23</th>
+                    <td>
+                      Successfully defended my master's thesis.
+                      <a
+                        href="https://fahadsid1770.github.io/assets/pdf/MSc_Thesis_Eftekhar.pdf"
+                        target="_blank"
+                        style="color: blue"
+                      >
+                        [<u>Thesis</u>]</a
+                      >
+                      <a
+                        href="https://fahadsid1770.github.io/assets/pdf/19METE020P_Eftekhar.pptx"
+                        target="_blank"
+                        style="color: green"
+                      >
+                        [<u>Slide</u>]</a
+                      >
+                    </td>
+                  </tr>
 
-        <tr>
-          <th scope="row">28 Aug, 23</th>
-          <td> 
-            Wins 20k BDT Prize for Best Research Publication at Research Fair 2023, Organized by CUET. <a href = "https://eftekhar-hossain.github.io/assets/pdf/Best Research Award.pdf" target = "_blank" style="color:blue;"> [<u>Certificate</u>]</a> 
-          </td>
-          
-        </tr>
+                  <tr>
+                    <th scope="row">21 Feb, 23</th>
+                    <td>
+                      Conducted a training on
+                      <span style="color: blue"
+                        >Bangla Language Processing</span
+                      >
+                      organized by CUET IT Business Incubator.
+                      <a
+                        href="https://fahadsid1770.github.io/assets/img/clblp.png"
+                        target="_blank"
+                        style="color: red"
+                      >
+                        [<u>Certificate</u>]</a
+                      >
+                    </td>
+                  </tr>
 
-        <tr>
-          <th scope="row">07 June, 23</th>
-          <td> 
-            Successfully defended my master's thesis. <a href = "https://eftekhar-hossain.github.io/assets/pdf/MSc_Thesis_Eftekhar.pdf" target = "_blank" style="color:blue;"> [<u>Thesis</u>]</a> <a href = "https://eftekhar-hossain.github.io/assets/pdf/19METE020P_Eftekhar.pptx" target = "_blank" style="color:green;"> [<u>Slide</u>]</a>
-          </td>
-          
-        </tr>
-        
-        
-        <tr>
-          <th scope="row">21 Feb, 23</th>
-          <td> 
-            Conducted a training on <span style="color:blue">Bangla Language Processing</span> organized by CUET IT Business Incubator. <a href = "https://eftekhar-hossain.github.io/assets/img/clblp.png" target = "_blank" style="color:red;"> [<u>Certificate</u>]</a>
-          </td>
-          
-        </tr>
-        
-        
-        <tr>
-          <th scope="row">19 Feb, 23</th>
-          <td> 
-            Successfully organized two NLP Competition (<a href = "https://www.kaggle.com/competitions/multimodal-sentiment-analysis-cuet-nlp/overview" target = "_blank" style="color:green; font-weight:bold;"> Task 1 </a>, <a href = "https://www.kaggle.com/competitions/clblp-task-2/overview" target = "_blank" style="color:green; font-weight:bold;"> Task 2 </a>)  as a part of <span style="color:blue"> CLBLP, 2023</span>. 
-          </td>
-          
-        </tr>
-        
-        
-        
-        <tr>
-          <th scope="row">27 Oct, 22</th>
-          <td> 
-            Presented two papers (<a href = "https://link.springer.com/chapter/10.1007/978-3-031-19958-5_45" target = "_blank" style="color:green; font-weight:bold;">paper-1</a>, <a href = "https://link.springer.com/chapter/10.1007/978-3-031-19958-5_81" target = "_blank" style="color:green; font-weight:bold;">paper-2</a>)  at <a href = "https://www.icico.info/" target = "_blank"><b>ICO-2022 (Springer)</b></a>. 
-          </td>
-          
-        </tr>
-        
-        
-         <tr>
-          <th scope="row">21 Oct, 22</th>
-          <td> 
-            Successfully organized a <a href = "https://www.kaggle.com/competitions/nlp-competition-cuet-ete-day-2022/overview" target = "_blank" style="color:green; font-weight:bold;"> NLP Competition </a> as a part of <span style="color:blue"> ETE DecaHertz, 2022</span>. 
-          </td>
-          
-        </tr>
-        
-        
-        <tr>
-          <th scope="row">19 Oct, 22</th>
-          <td> 
-            Conducted a training on <span style="color:blue">Machine Learning with Python</span> organized by CUET IT Business Incubator. <a href = "https://eftekhar-hossain.github.io/assets/pdf/incubator_certificate.pdf" target = "_blank" style="color:red;"> [<u>Certificate</u>]</a>
-          </td>
-          
-        </tr>
-        
-        
-        <tr>
-          <th scope="row">14 Oct, 22</th>
-          <td> 
-            One <a href = "https://aclanthology.org/2022.aacl-srw.5.pdf" target = "_blank" style="color:green; font-weight:bold;">paper</a> on Multimodal accepted at <a href = "https://www.aacl2022.org/Submission/student-research-workshop-papers" target = "_blank"><b>AACL-SRW-2022</b></a>. <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
-          </td>
-          
-        </tr>
-        
-        <tr>
-          <th scope="row">3 July, 22</th>
-          <td> 
-            Give a speech on <span style="color:blue;"> Understanding Social Media Beyond Texts</span> at the Seminar on Role of NLP in ERA of 4IR. <a href = "https://eftekhar-hossain.github.io/assets/pdf/Understanding Social Media Beyond Texts.pdf" target = "_blank" style="color:green;"> [<u>Slide</u>]</a> 
-          </td>
-          
-        </tr>
-        
-        
-        
-        <tr>
-          <th scope="row">2 July, 22</th>
-          <td> 
-            Successfully conducted a training on <span style="color:blue"> AI and Machine Learning with Python</span> organized by CUET IT Business Incubator. <a href = "https://eftekhar-hossain.github.io/assets/img/certificate.jpg" target = "_blank" style="color:red;"> [<u>Certificate</u>]</a> | <a href = "https://github.com/eftekhar-hossain/SKBI_Training" target = "_blank" style="color:green;"> [<u>Code & Slides</u>]</a> 
-          </td>
-          
-        </tr>
-        
-        
-        
-        <tr>
-          <th scope="row">17 June, 22</th>
-          <td>
-            
-             
-              One <a href = "https://reader.elsevier.com/reader/sd/pii/S1319157822002166?token=14A219F7C2B747E19444B490BE18DC596B17C09E0933C037D4C4B0A3C2B8A1AE35337AFFAB653B61C43A80E7047B17AB&originRegion=eu-west-1&originCreation=20220715092717" target = "_blank" style="color:green; font-weight:bold;">paper</a> (MSc Thesis) accepted at <a href = "https://www.journals.elsevier.com/journal-of-king-saud-university-computer-and-information-sciences" target = "_blank"><b>Journal of KSU-Computer and Information Sciences</b></a>.<span style = "color:red;">[IF: 8.839]</span>  
-          </td>
-          
-        </tr>
-      
-      
-        <tr>
-          <th scope="row">19 Apr, 22</th>
-          <td>
-            
-              <!--A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> -->
-              One <a href = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9764741" target = "_blank" style="color:green; font-weight:bold;">paper</a> accepted at <a href = "https://ieeeaccess.ieee.org/" target = "_blank"><b>IEEE Access Journal</b></a>.<span style = "color:red;">[IF: 3.367]</span>  
-          </td>
-          
-        </tr>
-        
-        <tr>
-          <th scope="row">6 Apr, 22</th>
-          <td>
-           One <a href = "https://aclanthology.org/2022.constraint-1.9.pdf" target = "_blank" style="color:green; font-weight:bold;">paper</a> accepted at <a href = "https://lcs2.iiitd.edu.in/CONSTRAINT-2022/" target = "_blank"><b>CONSTRAINT@ACL-2022</b></a>.  
-          </td>
-        </tr>
-        
-        <tr>
-           <th scope="row">4 Apr, 22</th>
-          <td>
-            
-              <!--A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> -->
-              One <a href = "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.165.pdf" target = "_blank" style="color:green; font-weight:bold;">paper</a> on Multimodal accepted at <a href = "https://lrec2022.lrec-conf.org/en/" target = "_blank"><b>LREC-2022</b></a> main conference. <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">   
-          </td>
-          
-        </tr>
-        
-        <tr>
-          
-          <th scope="row">26 Mar, 22</th>
-          <td>
-            
-              <!--A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> -->
-              Four shared task papers (<a href = "https://aclanthology.org/2022.dravidianlangtech-1.31.pdf" target = "_blank" style="color:green; font-weight:bold;">Emotion</a>, <a href = "https://aclanthology.org/2022.dravidianlangtech-1.27.pdf" target = "_blank" style="color:green; font-weight:bold;">Troll</a>, <a href = "https://aclanthology.org/2022.dravidianlangtech-1.30.pdf" target = "_blank" style="color:green; font-weight:bold;">Multimodal</a>, <a href = "https://aclanthology.org/2022.dravidianlangtech-1.34.pdf" target = "_blank" style="color:green; font-weight:bold;">Abusive</a>) accepted at <a href = "https://www.2022.aclweb.org/" target = "_blank"><b>ACL-2022</b></a> workshops.  
-          </td>
-        </tr>
-        
-  
-        
-        <tr>
-          
-          <th scope="row">15 Feb, 21</th>
-          <td>
-            
-              <!--A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> -->
-              Three shared task papers (<a href = "https://aclanthology.org/2021.ltedi-1.25.pdf" target ="_blank" style="color:green; font-weight:bold;">Hope</a>, <a href = "https://aclanthology.org/2021.dravidianlangtech-1.35.pdf" target = "_blank" style="color:green; font-weight:bold;">Offensive</a>, <a href = "https://aclanthology.org/2021.dravidianlangtech-1.43.pdf" target = "_blank" style="color:green; font-weight:bold;">Multimodal</a>) accepted at <a href = "https://2021.eacl.org/" target = "_blank"><b>EACL-2021</b></a>.  
-          </td>
-        </tr>
-      
-        
-     
-      
-      </table>
-    </div>
-  </div>
-</div>
+                  <tr>
+                    <th scope="row">19 Feb, 23</th>
+                    <td>
+                      Successfully organized two NLP Competition (<a
+                        href="https://www.kaggle.com/competitions/multimodal-sentiment-analysis-cuet-nlp/overview"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                      >
+                        Task 1 </a
+                      >,
+                      <a
+                        href="https://www.kaggle.com/competitions/clblp-task-2/overview"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                      >
+                        Task 2 </a
+                      >) as a part of
+                      <span style="color: blue"> CLBLP, 2023</span>.
+                    </td>
+                  </tr>
 
-    
+                  <tr>
+                    <th scope="row">27 Oct, 22</th>
+                    <td>
+                      Presented two papers (<a
+                        href="https://link.springer.com/chapter/10.1007/978-3-031-19958-5_45"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >paper-1</a
+                      >,
+                      <a
+                        href="https://link.springer.com/chapter/10.1007/978-3-031-19958-5_81"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >paper-2</a
+                      >) at
+                      <a href="https://www.icico.info/" target="_blank"
+                        ><b>ICO-2022 (Springer)</b></a
+                      >.
+                    </td>
+                  </tr>
 
-    <!--
+                  <tr>
+                    <th scope="row">21 Oct, 22</th>
+                    <td>
+                      Successfully organized a
+                      <a
+                        href="https://www.kaggle.com/competitions/nlp-competition-cuet-ete-day-2022/overview"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                      >
+                        NLP Competition
+                      </a>
+                      as a part of
+                      <span style="color: blue"> ETE DecaHertz, 2022</span>.
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">19 Oct, 22</th>
+                    <td>
+                      Conducted a training on
+                      <span style="color: blue"
+                        >Machine Learning with Python</span
+                      >
+                      organized by CUET IT Business Incubator.
+                      <a
+                        href="https://fahadsid1770.github.io/assets/pdf/incubator_certificate.pdf"
+                        target="_blank"
+                        style="color: red"
+                      >
+                        [<u>Certificate</u>]</a
+                      >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">14 Oct, 22</th>
+                    <td>
+                      One
+                      <a
+                        href="https://aclanthology.org/2022.aacl-srw.5.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >paper</a
+                      >
+                      on Multimodal accepted at
+                      <a
+                        href="https://www.aacl2022.org/Submission/student-research-workshop-papers"
+                        target="_blank"
+                        ><b>AACL-SRW-2022</b></a
+                      >.
+                      <img
+                        class="emoji"
+                        title=":smile:"
+                        alt=":smile:"
+                        src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png"
+                        height="20"
+                        width="20"
+                      />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">3 July, 22</th>
+                    <td>
+                      Give a speech on
+                      <span style="color: blue">
+                        Understanding Social Media Beyond Texts</span
+                      >
+                      at the Seminar on Role of NLP in ERA of 4IR.
+                      <a
+                        href="https://fahadsid1770.github.io/assets/pdf/Understanding Social Media Beyond Texts.pdf"
+                        target="_blank"
+                        style="color: green"
+                      >
+                        [<u>Slide</u>]</a
+                      >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">2 July, 22</th>
+                    <td>
+                      Successfully conducted a training on
+                      <span style="color: blue">
+                        AI and Machine Learning with Python</span
+                      >
+                      organized by CUET IT Business Incubator.
+                      <a
+                        href="https://fahadsid1770.github.io/assets/img/certificate.jpg"
+                        target="_blank"
+                        style="color: red"
+                      >
+                        [<u>Certificate</u>]</a
+                      >
+                      |
+                      <a
+                        href="https://github.com/eftekhar-hossain/SKBI_Training"
+                        target="_blank"
+                        style="color: green"
+                      >
+                        [<u>Code & Slides</u>]</a
+                      >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">17 June, 22</th>
+                    <td>
+                      One
+                      <a
+                        href="https://reader.elsevier.com/reader/sd/pii/S1319157822002166?token=14A219F7C2B747E19444B490BE18DC596B17C09E0933C037D4C4B0A3C2B8A1AE35337AFFAB653B61C43A80E7047B17AB&originRegion=eu-west-1&originCreation=20220715092717"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >paper</a
+                      >
+                      (MSc Thesis) accepted at
+                      <a
+                        href="https://www.journals.elsevier.com/journal-of-king-saud-university-computer-and-information-sciences"
+                        target="_blank"
+                        ><b
+                          >Journal of KSU-Computer and Information Sciences</b
+                        ></a
+                      >.<span style="color: red">[IF: 8.839]</span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">19 Apr, 22</th>
+                    <td>
+                      <!--A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> -->
+                      One
+                      <a
+                        href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9764741"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >paper</a
+                      >
+                      accepted at
+                      <a href="https://ieeeaccess.ieee.org/" target="_blank"
+                        ><b>IEEE Access Journal</b></a
+                      >.<span style="color: red">[IF: 3.367]</span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">6 Apr, 22</th>
+                    <td>
+                      One
+                      <a
+                        href="https://aclanthology.org/2022.constraint-1.9.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >paper</a
+                      >
+                      accepted at
+                      <a
+                        href="https://lcs2.iiitd.edu.in/CONSTRAINT-2022/"
+                        target="_blank"
+                        ><b>CONSTRAINT@ACL-2022</b></a
+                      >.
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">4 Apr, 22</th>
+                    <td>
+                      <!--A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> -->
+                      One
+                      <a
+                        href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.165.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >paper</a
+                      >
+                      on Multimodal accepted at
+                      <a
+                        href="https://lrec2022.lrec-conf.org/en/"
+                        target="_blank"
+                        ><b>LREC-2022</b></a
+                      >
+                      main conference.
+                      <img
+                        class="emoji"
+                        title=":sparkles:"
+                        alt=":sparkles:"
+                        src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png"
+                        height="20"
+                        width="20"
+                      />
+                      <img
+                        class="emoji"
+                        title=":smile:"
+                        alt=":smile:"
+                        src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png"
+                        height="20"
+                        width="20"
+                      />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">26 Mar, 22</th>
+                    <td>
+                      <!--A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> -->
+                      Four shared task papers (<a
+                        href="https://aclanthology.org/2022.dravidianlangtech-1.31.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >Emotion</a
+                      >,
+                      <a
+                        href="https://aclanthology.org/2022.dravidianlangtech-1.27.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >Troll</a
+                      >,
+                      <a
+                        href="https://aclanthology.org/2022.dravidianlangtech-1.30.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >Multimodal</a
+                      >,
+                      <a
+                        href="https://aclanthology.org/2022.dravidianlangtech-1.34.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >Abusive</a
+                      >) accepted at
+                      <a href="https://www.2022.aclweb.org/" target="_blank"
+                        ><b>ACL-2022</b></a
+                      >
+                      workshops.
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">15 Feb, 21</th>
+                    <td>
+                      <!--A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> -->
+                      Three shared task papers (<a
+                        href="https://aclanthology.org/2021.ltedi-1.25.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >Hope</a
+                      >,
+                      <a
+                        href="https://aclanthology.org/2021.dravidianlangtech-1.35.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >Offensive</a
+                      >,
+                      <a
+                        href="https://aclanthology.org/2021.dravidianlangtech-1.43.pdf"
+                        target="_blank"
+                        style="color: green; font-weight: bold"
+                        >Multimodal</a
+                      >) accepted at
+                      <a href="https://2021.eacl.org/" target="_blank"
+                        ><b>EACL-2021</b></a
+                      >.
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!--
       <div class="publications">
   <h2>Selected Publications</h2>
   <ol class="bibliography"><li>
@@ -511,14 +893,14 @@
     
     
       
-      <a href="https://eftekhar-hossain.github.io/assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      <a href="https://fahadsid1770.github.io/assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
       
 
     
     </div>
 
     <!-- Hidden abstract block -->
-   <!-- 
+          <!-- 
     <div class="abstract hidden">
       <p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
     </div>
@@ -528,9 +910,8 @@
 </li></ol>
 </div>
 -->
-    
 
-<!--
+          <!--
     <div class="social">
       <span class="contact-icon text-center">
   
@@ -548,21 +929,17 @@
 </div>
 
     </div>  
--->   
-
-    
-  </article>
-
-</div>
-
+-->
+        </article>
+      </div>
     </div>
 
     <!-- Footer -->
 
-<!--    
+    <!--    
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    © Copyright 2021 Eftekhar Hossain.
+    © Copyright 2021 Fahad Siddique.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
    
@@ -571,31 +948,55 @@
 </footer>
  -->
 
-    <footer style="position: fixed; bottom: 0; right: 0; padding: 8px 12px; font-size: 0.8rem; color: #444; background: none; box-shadow: none; z-index: 1030;">
-        Last updated on July 27, 2025
+    <footer
+      style="
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 8px 12px;
+        font-size: 0.8rem;
+        color: #444;
+        background: none;
+        box-shadow: none;
+        z-index: 1030;
+      "
+    >
+      Last updated on July 27, 2025
     </footer>
-
-
-
   </body>
 
   <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"
+    integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw=="
+    crossorigin="anonymous"
+  ></script>
 
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="https://eftekhar-hossain.github.io/assets/js/mansory.js" type="text/javascript"></script>
+  <!-- Mansory & imagesLoaded -->
+  <script
+    defer
+    src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"
+  ></script>
+  <script
+    defer
+    src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"
+  ></script>
+  <script
+    defer
+    src="https://fahadsid1770.github.io/assets/js/mansory.js"
+    type="text/javascript"
+  ></script>
 
-
-  
-
-
-<!-- Load Common JS -->
-<script src="https://eftekhar-hossain.github.io/assets/js/common.js"></script>
-
-
+  <!-- Load Common JS -->
+  <script src="https://fahadsid1770.github.io/assets/js/common.js"></script>
 </html>
