@@ -1,0 +1,323 @@
+{
+  "personal_information": {
+    "name": "Fahad Siddique Faisal",
+    "title": "ML/AI Engineer | AI Researcher",
+    "location": "Dhaka, Bangladesh",
+    "phone": "+8801611346769",
+    "email": "fahadsid1770@gmail.com",
+    "portfolio": "https://fahad-portfolio-alpha.vercel.app/",
+    "linkedin": "fahadsiddique1770",
+    "github": "fahadsid1770",
+    "quote": "Be the change that you want to see in the world."
+  },
+  "test_scores": {
+    "ielts": {
+      "overall": 7.5,
+      "listening": 7.5,
+      "reading": 8.0,
+      "writing": 6.5,
+      "speaking": 7.5
+    }
+  },
+  "research_interests": [
+    "Human-Computer Interaction",
+    "Machine Learning",
+    "Deep Learning",
+    "Natural Language Processing",
+    "LLMs",
+    "AI"
+  ],
+  "experience": [
+    {
+      "company": "AI Solutions USA",
+      "role": "Software Engineer (AI/ML)",
+      "location": "New York, USA",
+      "duration": "Jun. 2025 - Present",
+      "details": [
+        "Designed a multi-agent orchestration framework with CrewAI, Instruct, and Agno to orchestrate AI agents for collaborative task execution.",
+        "Preprocessed the data with Pandas and Numpy, implemented Chunking techniques, Indexing, and vectorizing with embedding models and RAG-Techniques.",
+        "Gained Proficiency in NoSQL (MongoDB) and Vector DBs (Lancedb, Qdrant, Milvus) and Production-Grade FastAPI development."
+      ]
+    },
+    {
+      "company": "Walton Hi-Tech Industries PLC",
+      "role": "AI Researcher & Senior Deputy Assistant Director",
+      "location": "Dhaka, Bangladesh",
+      "duration": "Apr. 2025 - Present",
+      "details": [
+        "Developed a fully local AI-based knowledge-base and chat system using open-source AI models and Langchain and LangGraph with a Corrective-RAG pipeline, trained on internal data.",
+        "Developed a Long-term memory system for any Conversational AI.",
+        "Developed an AI-based Real-time on-device Speech Recognition and Transcription system utilizing whisper.cpp and Open-sourced LLM models.",
+        "Implemented distributed and Parallel GPU training and inference capability of NVIDIA GPU with PyTorch, CUDA programming and llama.cpp.",
+        "Finetuned LORA Adapters, Developed GPT-2-based Small language model with 20M and 30M parameters with function-calling capability."
+      ]
+    },
+    {
+      "company": "Outlier AI",
+      "role": "Data Engineer",
+      "location": "Remote",
+      "duration": "Oct 2024 - Feb 2025",
+      "details": [
+        "Curated around 22GB of English to Bangla translated and Question Answering text.",
+        "Gained hands-on experience in developing datasets to train transformer-based and AI models.",
+        "Gained extensive knowledge regarding data curation and the importance of quality data for training AI models."
+      ]
+    },
+    {
+      "company": "Riseup Labs",
+      "role": "Software Engineer Intern",
+      "location": "Uttara, Dhaka",
+      "duration": "Jun. 2023 - Jul. 2023",
+      "details": [
+        "Gained experience on Software development life-cycle.",
+        "Got proficient with Linux, Bash, Google Cloud Platform, VM and Cloud Run Deployment.",
+        "Introduction to Big Data analysis using Hadoop and Spark."
+      ]
+    },
+    {
+      "company": "Sheikh Kamal IT Business Incubator",
+      "role": "AI/ML Engineer Intern",
+      "location": "Chittagong, Bangladesh",
+      "duration": "Jun. 2022 - Jul. 2022",
+      "details": [
+        "Developed Machine Learning algorithms like Regression and Classification, SVM, Neural Networks like CNN, TextCNN, RNN.",
+        "Interacted with Computer Vision concepts like Model Fusion, Image Color Conversion, CNN with sequential API and functional API.",
+        "Implemented Natural Language Processing models like LSTMs and Pretrained Word Embeddings like Word2Vec, Glove, FastText."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chittagong University of Engineering and Technology",
+      "degree": "B.S. in Electronics and Telecommunication Engineering",
+      "location": "Chittagong, Bangladesh",
+      "duration": "Feb 2019 - Jul 2024",
+      "details": [
+        "Obtained CGPA of 3.44 out of 4.0 with last semester GPA 3.73"
+      ],
+      "relevant_coursework": {
+        "Programming Related": [
+          "C/C++",
+          "Object-Oriented Programming",
+          "Numerical Analysis",
+          "Algorithms"
+        ],
+        "Data Management": [
+          "Data Structures",
+          "Database Management (SQL, NoSQL, VectorDB)"
+        ],
+        "Machine Learning": [
+          "Advanced Python Programming",
+          "Linear Algebra and Statistics"
+        ],
+        "Microprocessor Related": [
+          "Microcontroller",
+          "Microprocessor",
+          "VLSI Technology"
+        ]
+      }
+    }
+  ],
+  "undergraduate_thesis": {
+    "title": "Investigation and Transforming Resource-Scarce Language Question Generation: A Study on Text-to-Text Transformer Models for Bengali",
+    "role": "Author",
+    "location": "Bangladesh",
+    "year": "2024",
+    "details": [
+      "Developed and improved an automatic FAQ generation system using text-to-text transformer models to enhance Question Generation (QG) in multilingual contexts."
+    ]
+  },
+  "publications": [
+    {
+      "title": "Optimizing Resource-Scarce Language Question Generation on Bengali: A Comparative Study of Transformer-Based Models",
+      "authors": ["F. S. Faisal", "S. N. Islam", "M. F. Hossain", "M. A. Hossain"],
+      "conference": "27th International Conference on Computer and Information Technology (IEEE ICCIT)",
+      "year": "2024",
+      "status": "Published"
+    },
+    {
+      "title": "Enhancing Bilingual Sarcasm Detection with an Advanced Ensemble Model: A Dual-Language Deep Learning Framework",
+      "authors": ["S. N. Islam", "F. S. Faisal", "M. F. Hossain", "M. A. Hossain"],
+      "conference": "27th International Conference on Computer and Information Technology (IEEE ICCIT)",
+      "year": "2024",
+      "status": "Published"
+    },
+    {
+      "title": "Design and Comparative Analysis of 1-BIT ALU and Full Adder using MGDI Technique for High-Performance PLC Applications",
+      "authors": ["M. S. H. Sarker", "F. S. Faisal", "A. Istiaque", "T. Taher"],
+      "conference": "27th International Conference on Computer and Information Technology (IEEE ICCIT)",
+      "year": "2024",
+      "status": "Published"
+    },
+    {
+      "title": "A Federated and Explainable Machine Learning Framework for Robust Intrusion Detection and Network Security Enhancement in Industrial Internet of Things (IIoT) Environments",
+      "authors": ["A. R. Akand", "M. M. H. B. Nipu", "I. Das", "G. Ali", "A. Hossain", "F. S. Faisal"],
+      "conference": "International Conference on Electrical, Computer & Telecommunication Engineering (IEEE ICECTE)",
+      "year": "2026",
+      "status": "Accepted"
+    }
+  ],
+  "ongoing_research": [
+    {
+      "title": "Student-Teacher Light Vision-Language Models Leveraging LLAMA 3.2 11B for Explainable, High-Fidelity Chest X-Ray Interpretation and Autonomous Clinical Reporting",
+      "role": "Co-Author",
+      "duration": "Jul 2025 - Present",
+      "details": [
+        "The combination of structured visual classification via EfficientNetB7 & reasoning through the LLAMA 3.2 Vision-Instruct model."
+      ]
+    },
+    {
+      "title": "Conversational AI Model for the Medical Domain Adapted Using QLoRA on Qwen2-0.5B",
+      "role": "Author",
+      "details": [
+        "The project adapts the model using the ruslanmv/ai-medical-chatbot dataset of patient-doctor conversations, optimizing training with cosine scheduling, gradient accumulation, and Hugging Face integration"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Walton-AI: Local AI Assistant and AI-based Knowledge Management System",
+      "tech_stack": ["Python", "LangChain", "LangGraph", "Llama.cpp"],
+      "year": "2025",
+      "details": [
+        "Optimized a high-performance RAG pipeline utilizing the Llama-3.2-3B LLM, achieving a 70% reduction in memory requirements (from 12GB to 3.5GB) using 8-bit quantization (llama.cpp backed) while maintaining 99.5% of the original model's performance."
+      ]
+    },
+    {
+      "title": "Real Time Image Pattern Detection and Recognition using OpenCV and CLIP Embeddings",
+      "tech_stack": ["OpenCV", "CLIP Embeddings", "YOLOv8", "QdrantDB"],
+      "year": "2025",
+      "details": [
+        "Developed an end-to-end computer vision system combining YOLOv8 for real-time refrigerator detection, CLIP embeddings for feature extraction, and Qdrant vector database for similarity search."
+      ]
+    },
+    {
+      "title": "Development of a 400M Parameter Small Language Model with Function-Calling and ONNX Deployment",
+      "tech_stack": ["Python", "PyTorch", "ONNX"],
+      "year": "2025",
+      "details": [
+        "Developed a small language model from scratch focused on function calling capabilities and efficient ONNX deployment."
+      ]
+    },
+    {
+      "title": "Early and Late Fusion For Multimedia Hateful Meme Classification",
+      "tech_stack": ["Python", "ResNet", "VGG19", "DenseNet", "Transformers"],
+      "year": "2025",
+      "details": [
+        "Optimized a high-performance RAG pipeline utilizing the Llama-3.2-3B LLM, achieving a 70% reduction in memory requirements."
+      ]
+    },
+    {
+      "title": "Multi-class Bangla News Classification using Early Fusion and Late Fusion",
+      "tech_stack": ["Python", "Bi-LSTM", "CNN"],
+      "year": "2022",
+      "details": [
+        "Implemented fusion techniques (Early and Late) for accurate classification of Bangla news articles."
+      ]
+    },
+    {
+      "title": "Control Sequencer for SAP-1 Architecture",
+      "tech_stack": ["Logisim"],
+      "year": "2022",
+      "details": [
+        "Designed a control sequencer incorporating a 6-bit ring counter to facilitate efficient loading of two data values into registers.",
+        "Integrated user-friendly buttons for voting and ensured accurate tallying and display of results in real time."
+      ]
+    },
+    {
+      "title": "Microcontroller and IoT Projects",
+      "tech_stack": ["Mosquitto MQTT", "ESP32", "Arduino", "whisper.cpp", "AC Relay", "Wifi Module"],
+      "year": "2022",
+      "details": [
+        "Developed an Arduino-based electronic voting system capable of counting votes and displaying final results on an LCD screen.",
+        "Developed an AI-based voice controlled over-the-internet Automatic Warehouse Switching and Monitoring system.",
+        "Real-time Weather Monitoring and Forecasting system."
+      ]
+    }
+  ],
+  "honors_and_awards": {
+    "international": [
+      {
+        "title": "Best Technical Paper in a Session on AI",
+        "event": "27th International Conference ICCIT2024",
+        "location": "Cox's Bazar",
+        "year": "2024"
+      },
+      {
+        "title": "Winner, scholarship for CSCA (Certified Supply Chain Analyst)",
+        "location": "Ohio, U.S.A",
+        "year": "2022"
+      },
+      {
+        "title": "Winner, ISCEA Prize Global Supply Chain",
+        "location": "Ohio, U.S.A",
+        "year": "2022"
+      }
+    ],
+    "domestic": [
+      {
+        "title": "Champion among 170 Engineering Team",
+        "event": "Walton AI Creative Award",
+        "location": "Bangladesh",
+        "year": "2025"
+      },
+      {
+        "title": "Winner, University Semester Scholarship for Outstanding Result",
+        "location": "Bangladesh",
+        "year": "2024"
+      },
+      {
+        "title": "Winner, University Semester Scholarship for Outstanding Result",
+        "location": "Bangladesh",
+        "year": "2020"
+      },
+      {
+        "title": "Winner, University Semester Scholarship for Outstanding Result",
+        "location": "Bangladesh",
+        "year": "2019"
+      }
+    ]
+  },
+  "leadership_and_affiliations": [
+    {
+      "organization": "CUET Debating Society",
+      "role": "Vice-President",
+      "location": "Chittagong, Bangladesh",
+      "duration": "July 2023 - Sept 2024",
+      "details": [
+        "Arranged a National Level Inter-University Debate Competition and Cultural Program.",
+        "Participants at Inter University English Debate Competition."
+      ]
+    },
+    {
+      "organization": "House of the Language and Literature, CUET",
+      "role": "Organizing Secretary",
+      "location": "Chittagong, Bangladesh",
+      "duration": "Aug 2023 - Sept 2024",
+      "details": [
+        "Arranged a literature fest for all the members of the university to explore books.",
+        "Arranged weekly book reading sessions with fellow book lovers."
+      ]
+    }
+  ],
+  "extracurricular_activities": [
+    {
+      "role": "Problem Writer",
+      "event": "2022 ETE DecaHertz Programming Contest",
+      "location": "Bangladesh",
+      "year": "2022"
+    },
+    {
+      "role": "Organizer & Program Co-ordinator",
+      "organization": "Infixion",
+      "location": "Bangladesh",
+      "year": "2023"
+    },
+    {
+      "role": "Organizer",
+      "event": "Tarunner Uthsob by CUET Debating Society",
+      "location": "Bangladesh",
+      "year": "2023"
+    }
+  ]
+}
