@@ -9,7 +9,7 @@
 /*html[data-theme='dark'] .fa-moon { display: none; }*/
 
 /****************************************************************************** Content *****************************************************************************/
-body { font-family: "Roboto Slab"; padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); }
+body { font-family: "Trebuchet MS", sans-serif; padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); }
 
 body.fixed-top-nav { padding-top: 56px; }
 
@@ -149,13 +149,13 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 /* Left column - Year */
 .academic-project-year {
   font-size: 0.875rem;
-  color: #808080; /* Muted light gray */
+  color: #808080;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-family: "Roboto", sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   position: relative;
-  top: 2px; /* Align with title baseline */
+  top: 2px;
 }
 
 /* Right column - Main content */
@@ -177,7 +177,7 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
   font-size: 1.1rem;
   color: var(--card-text-color);
   font-weight: 600;
-  font-family: "Roboto", sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   line-height: 1.3;
   flex: 1;
 }
