@@ -318,6 +318,18 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 .publications ol.bibliography li div.abstract.hidden { border: dashed 1px var(--global-bg-color); }
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
+.abstract-image {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.abstract-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 code { color: var(--global-theme-color); }
 
 html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }

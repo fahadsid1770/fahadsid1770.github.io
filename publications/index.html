@@ -168,6 +168,14 @@
                     </div>
                     <div class="links">
                       <a href="https://drive.google.com/file/d/1rV04Fpwv0f2HWx5Yk79dZRMqR4U9ocTy/view?usp=sharing" target="_blank" class="badge badge-dark">Accepted!</a>
+                      <a href="#" onclick="toggleAbstract(this); return false;">Tell me about this paper</a>
+                    </div>
+                    <div class="abstract hidden">
+                      <p>Automated chest X-ray report generation significantly contributes to enhanced diagnostic efficiency and reduced workloads for radiologists through intelligent interpretation of medical imaging. This paper presents a framework for generating clinically coherent radiology reports from X-ray images.</p>
+                      <p>Combined visual understanding and linguistic reasoning using a LLaMA 3.2 Vision-Instruct model trained with EfficientNetB7 classifiers and parameter-efficient LoRA. Generated reports demonstrated clinical medical precision and diagnostic fluency with a structure and flow comparable to expert-authored text, highlighting the effectiveness of combining image classification with multimodal language modelling for reliable radiology report generation.</p>
+                      <div class="abstract-image">
+                        <img src="https://fahadsid1770.github.io/assets/img/x-ray_finding.png" alt="X-Ray Findings">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -188,6 +196,14 @@
                     </div>
                     <div class="links">
                       <a href="https://drive.google.com/file/d/1we1HebgihZFZBkutuJQBorHUKookfAPK/view?usp=sharing" target="_blank" class="badge badge-dark">Accepted!</a>
+                      <a href="#" onclick="toggleAbstract(this); return false;">Tell me about this paper</a>
+                    </div>
+                    <div class="abstract hidden">
+                      <p>Addressing the security of an organization from internal zero-day threats is highly problematic for classical security approaches, as such vulnerabilities are unknown and evade conventional detection methods. This paper aims to create a robust, portable ML-based intrusion detection system automated for zero-day attack detection under latency constraints.</p>
+                      <p>Developed a comprehensive preprocessing framework addressing missing values, feature selection, and dataset balancing with SMOTE. Evaluated Logistic Regression, Random Forest, XGBoost, LightGBM, Neural Networks, and CNNs. LightGBM and deep learning models demonstrated the best performance, justifying the need for advanced zero-day intrusion prevention.</p>
+                      <div class="abstract-image">
+                        <img src="https://fahadsid1770.github.io/assets/img/performance_analysis_of_intrution_detection.png" alt="Intrusion Detection Performance">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -208,6 +224,14 @@
                     </div>
                     <div class="links">
                       <a href="https://ieeexplore.ieee.org/abstract/document/11021824" target="_blank" class="badge badge-dark">Paper</a>
+                      <a href="#" onclick="toggleAbstract(this); return false;">Tell me about this paper</a>
+                    </div>
+                    <div class="abstract hidden">
+                      <p>This paper presents an automatic FAQ generation system for Bengali, a resource-scarce language, addressing limitations in existing Question Generation systems such as poor machine-translated datasets and inadequate evaluation metrics.</p>
+                      <p>Employed a series of text-to-text encoder-only and encoder-decoder transformer-based models (IndicBart, SahajBart, Biswabangla, BanglaBERT, BanglaT5, and mT5-base) to design the system. The proposed bn-TOK + mT5-base + Beam Search model scores Rouge 37.225 and SacreBLEU 14.202 with METEOR 0.216, demonstrating superior performance in balancing lexical accuracy, structural coherence, and semantic meaningfulness.</p>
+                      <div class="abstract-image">
+                        <img src="https://fahadsid1770.github.io/assets/img/Question_Generation_system.png" alt="Question Generation System">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -228,6 +252,14 @@
                     </div>
                     <div class="links">
                       <a href="https://ieeexplore.ieee.org/abstract/document/11022366" target="_blank" class="badge badge-dark">Paper</a>
+                      <a href="#" onclick="toggleAbstract(this); return false;">Tell me about this paper</a>
+                    </div>
+                    <div class="abstract hidden">
+                      <p>Sarcasm detection is crucial for interpreting web portal comments, customer feedback, and social media interactions, as misinterpretation can distort sentiment analysis. This study addresses the challenge of detecting subtle and context-dependent sarcastic expressions in both Bengali and English.</p>
+                      <p>Proposed an ensemble model integrating both BiLSTM and GRU with word embeddings. The model demonstrated superior performance compared to other deep learning models, achieving approximately 97% accuracy on the news headline dataset and 89% on the BanglaSARC dataset.</p>
+                      <div class="abstract-image">
+                        <img src="https://fahadsid1770.github.io/assets/img/sarcasm_delection.png" alt="Sarcasm Detection">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -248,6 +280,14 @@
                     </div>
                     <div class="links">
                       <a href="https://ieeexplore.ieee.org/abstract/document/11022492" target="_blank" class="badge badge-dark">Paper</a>
+                      <a href="#" onclick="toggleAbstract(this); return false;">Tell me about this paper</a>
+                    </div>
+                    <div class="abstract hidden">
+                      <p>With the growing demand for low-power, smaller chips, arithmetic operations performed by Arithmetic Logic Units and Full adders remain crucial in GPUs, CPUs, and microcontrollers. This paper addresses the need to reduce chip area and power dissipation in conventional programmable logic controller circuits.</p>
+                      <p>Designed a 1-BIT ALU, 10-T Full-adder, and NAND output selected with a multiplexer circuit using the Modified Gate Diffusion Input (MGDI) technique in a 90nm transistor size. The conventional PLC unit consists of at least 128 transistors, whereas the proposed design has only 54 transistors, significantly decreasing chip area and power dissipation.</p>
+                      <div class="abstract-image">
+                        <img src="https://fahadsid1770.github.io/assets/img/Multipurpose_PLC_Circuit.png" alt="Multipurpose PLC Circuit">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -288,6 +328,20 @@
       </div>
     </div>
   </body>
+  <script>
+    function toggleAbstract(link) {
+      var abstract = link.closest('.col-sm-8').querySelector('.abstract');
+      if (abstract.classList.contains('hidden')) {
+        abstract.classList.remove('hidden');
+        abstract.classList.add('open');
+        link.textContent = 'Hide';
+      } else {
+        abstract.classList.add('hidden');
+        abstract.classList.remove('open');
+        link.textContent = 'Tell me about this paper';
+      }
+    }
+  </script>
   <!-- Bootsrap & MDB scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
