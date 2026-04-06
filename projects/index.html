@@ -608,4 +608,33 @@
   ></script>
   <!-- Load Common JS -->
   <script src="https://fahadsid1770.github.io/assets/js/common.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var projectCards = document.querySelectorAll(".academic-project");
+
+      projectCards.forEach(function (projectCard) {
+        var title = projectCard.querySelector(".academic-project-title");
+        var githubLink = projectCard.querySelector(".academic-project-github");
+
+        if (!title || !githubLink || title.querySelector("a")) {
+          return;
+        }
+
+        var titleLink = document.createElement("a");
+        titleLink.href = githubLink.getAttribute("href") || "#";
+        titleLink.className = "academic-project-title-link";
+        titleLink.textContent = title.textContent.trim();
+
+        if (githubLink.getAttribute("target")) {
+          titleLink.target = githubLink.getAttribute("target");
+        }
+        if (titleLink.target === "_blank") {
+          titleLink.rel = "noopener noreferrer";
+        }
+
+        title.textContent = "";
+        title.appendChild(titleLink);
+      });
+    });
+  </script>
 </html>
