@@ -61,6 +61,32 @@
       href="https://fahadsid1770.github.io/assets/css/main.css"
     />
     <link rel="canonical" href="https://fahadsid1770.github.io/Projects/" />
+    <style>
+      .academic-project { scroll-margin-top: 80px; }
+      .academic-project.is-target { animation: project-flash 1.6s ease-out 1; }
+      .academic-project-share {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        margin-left: 0.5rem;
+        padding: 0.1rem 0.4rem;
+        font-size: 0.85em;
+        color: inherit;
+        background: transparent;
+        border: 1px solid currentColor;
+        border-radius: 3px;
+        cursor: pointer;
+        opacity: 0.7;
+        text-decoration: none;
+      }
+      .academic-project-share:hover { opacity: 1; }
+      .academic-project-share:focus { outline: 2px solid currentColor; outline-offset: 2px; }
+      .academic-project-share.is-copied { opacity: 1; }
+      @keyframes project-flash {
+        0%   { box-shadow: inset 4px 0 0 0 #2a7ae2, 0 0 0 0 rgba(42, 122, 226, 0.25); background-color: rgba(42, 122, 226, 0.08); }
+        100% { box-shadow: none; background-color: transparent; }
+      }
+    </style>
     <!-- JQuery -->
     <!-- jQuery -->
     <script
@@ -196,6 +222,7 @@
           <div class="academic-projects-list">
             <!-- Sensor-Aware Adaptive Linear Trajectory Model -->
             <article
+              id="sensor-aware-adaptive-linear-trajectory-model"
               class="academic-project"
               tabindex="0"
               aria-label="Sensor-Aware Adaptive Linear Trajectory Model project"
@@ -205,7 +232,8 @@
                 <div class="academic-project-content">
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
-                      Sensor-Aware Adaptive Linear Trajectory Model to Find Optimal Sensor Position for Evasive Targets.
+                      Sensor-Aware Adaptive Linear Trajectory Model to Find
+                      Optimal Sensor Position for Evasive Targets.
                     </h3>
                     <a
                       href="https://github.com/fahadsid1770/Sensor-Aware-Adaptive-Linear-Trajectory-Model"
@@ -238,6 +266,7 @@
 
             <!-- DroneSeg Project -->
             <article
+              id="droneseg"
               class="academic-project"
               tabindex="0"
               aria-label="DroneSeg project"
@@ -265,7 +294,12 @@
                     <span class="academic-tech-tag">Deep Learning</span>
                   </div>
                   <div class="academic-project-description">
-                    DroneSeg is a full-stack semantic segmentation platform for drone/aerial imagery. Upload drone photos, run SegFormer-B2 deep learning inference to generate land-cover classification masks with bounding boxes and visualize results on an interactive map and GeoJSON export. This is an MVP application built for demo.
+                    DroneSeg is a full-stack semantic segmentation platform for
+                    drone/aerial imagery. Upload drone photos, run SegFormer-B2
+                    deep learning inference to generate land-cover
+                    classification masks with bounding boxes and visualize
+                    results on an interactive map and GeoJSON export. This is an
+                    MVP application built for demo.
                   </div>
                 </div>
               </div>
@@ -273,6 +307,7 @@
 
             <!-- ARScaner Project -->
             <article
+              id="arscaner"
               class="academic-project"
               tabindex="0"
               aria-label="ARScaner project"
@@ -313,6 +348,7 @@
 
             <!-- Project 1 -->
             <article
+              id="aiot-based-smart-fridge"
               class="academic-project"
               tabindex="0"
               aria-label="AIOT-Based-Smart-Fridge project"
@@ -354,6 +390,7 @@
 
             <!-- Project 2 -->
             <article
+              id="voice-command-fingerprinting"
               class="academic-project"
               tabindex="0"
               aria-label="Voice Command Fingerprinting - Attack and Defense project"
@@ -391,6 +428,7 @@
 
             <!-- Project 3 -->
             <article
+              id="medconvformer"
               class="academic-project"
               tabindex="0"
               aria-label="MedConvFormer : Hybrid CNN-Transformer to Distinguish COVID-19, Normal, and Pneumonia from chest X-ray images project"
@@ -431,6 +469,7 @@
 
             <!-- Project 4 -->
             <article
+              id="walton-ai"
               class="academic-project"
               tabindex="0"
               aria-label="Walton-AI: Local conversational AI and Cosine Similarity based Knowledge Management System project"
@@ -470,6 +509,7 @@
 
             <!-- Project 5 -->
             <article
+              id="altm"
               class="academic-project"
               tabindex="0"
               aria-label="AI Long-Term Memory (ALTM) project"
@@ -506,6 +546,7 @@
 
             <!-- Project 6 -->
             <article
+              id="chest-xray-vlm"
               class="academic-project"
               tabindex="0"
               aria-label="Automated Chest X-Ray Report Generation Using Vision-Language Models project"
@@ -544,6 +585,7 @@
 
             <!-- Project 7 -->
             <article
+              id="image-pattern-detection-recognition"
               class="academic-project"
               tabindex="0"
               aria-label="Real Time Image Pattern Detection and Recognition using OpenCV and CLIP Embeddings project"
@@ -583,6 +625,7 @@
 
             <!-- Project 8 -->
             <article
+              id="hateful-meme-fusion"
               class="academic-project"
               tabindex="0"
               aria-label="Early and Late Fusion For Multimedia Hateful Meme Classification project"
@@ -623,6 +666,7 @@
 
             <!-- Project 9 -->
             <article
+              id="bangla-news-fusion"
               class="academic-project"
               tabindex="0"
               aria-label="Multi-class Bangla News Classification using Early Fusion and Late Fusion project"
@@ -657,18 +701,20 @@
               </div>
             </article>
 
-            <!-- Project 10 -->
+            <!-- Project 10: 1-Bit SRAM Cell  -->
             <article
+              id="sram-cell-vlsi"
               class="academic-project"
               tabindex="0"
-              aria-label="Control Sequencer for SAP-1 Architecture project"
+              aria-label="Design and Analysis of 1-Bit SRAM Cell using Cadence Virtuos, VLSI"
             >
               <div class="academic-project-row">
-                <div class="academic-project-year" aria-hidden="true">2022</div>
+                <div class="academic-project-year" aria-hidden="true">2024</div>
                 <div class="academic-project-content">
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
-                      Control Sequencer for SAP-1 Architecture
+                      Design and Analysis of 1-Bit SRAM Cell using Cadence
+                      Virtuos, VLSI
                     </h3>
                     <a
                       href="#"
@@ -679,14 +725,81 @@
                     </a>
                   </div>
                   <div class="academic-project-tech">
-                    <span class="academic-tech-tag">Logisim</span>
+                    <span class="academic-tech-tag">Cadence Virtuoso</span>
+                    <span class="academic-tech-tag">VLSI</span>
                   </div>
                   <div class="academic-project-description">
-                    Designed a control sequencer incorporating a 6-bit ring
-                    counter to facilitate efficient loading of two data values
-                    into registers. Integrated user-friendly buttons for voting
-                    and ensured accurate tallying and display of results in real
-                    time.
+                    Static Random-Access Memory (SRAM) cells, which act as quick
+                    and effective memory storage components, are crucial
+                    components of contemporary digital integrated circuits. In
+                    this report, 1-Bit SRAM cell is implemented and its
+                    schematic, simulation results, truth tables, and stick
+                    diagram is analyzed. The performance characteristics of the
+                    SRAM cell, including delay and power consumption, are
+                    carefully analyzed using comprehensive simulations using
+                    cadence virtuoso. The outcomes show that the 1-bit SRAM cell
+                    provides competitive performance traits while taking up only
+                    a little amount of space. <br />
+                    <img
+                      src="/assets/img/sram.png"
+                      alt="Research Image"
+                      width="50%"
+                    />
+                    <img
+                      src="/assets/img/sram2.png"
+                      alt="Research Image"
+                      width="40%"
+                    />
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 11: Control Sequencer for SAP-1 Architecture -->
+            <article
+              id="sap-1-microprocessor"
+              class="academic-project"
+              tabindex="0"
+              aria-label="Control Sequencer for SAP-1 Architecture project"
+            >
+              <div class="academic-project-row">
+                <div class="academic-project-year" aria-hidden="true">2024</div>
+                <div class="academic-project-content">
+                  <div class="academic-project-header">
+                    <h3 class="academic-project-title">
+                      Design and Implementation of an SAP-1 Microprocessor with
+                      Assembler
+                    </h3>
+                    <a
+                      href="#"
+                      class="academic-project-github"
+                      aria-label="View on GitHub"
+                    >
+                      <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="academic-project-tech">
+                    <span class="academic-tech-tag">Cadence Virtuoso</span>
+                    <span class="academic-tech-tag">VLSI</span>
+                  </div>
+                  <div class="academic-project-description">
+                    The objective of this project was to design and implement a
+                    fully operational SAP-1 (Simple-As-Possible) microprocessor
+                    architecture using Logisim, integrating both hard- ware and
+                    software components for automatic program execution. The
+                    processor was constructed from fundamental digital modules
+                    including the general-purpose register, arithmetic logic
+                    unit (ALU), 5-to-32 decoder, SRAM memory block, instruction
+                    register, ring counter, program counter, and control
+                    sequencer . Additional subsystems such as the barrel shifter
+                    and ring rotator were implemented to support extended
+                    logical and data manipulation operations. <br />
+                    [Open in new window to view the image clearly] <br />
+                    <img
+                      src="/assets/img/control_sequencer.jpg"
+                      alt="Research Image"
+                      width="100%"
+                    />
                   </div>
                 </div>
               </div>
@@ -694,12 +807,13 @@
 
             <!-- Project 9 -->
             <article
+              id="microcontroller-iot"
               class="academic-project"
               tabindex="0"
               aria-label="Microcontroller and IoT Projects project"
             >
               <div class="academic-project-row">
-                <div class="academic-project-year" aria-hidden="true">2022</div>
+                <div class="academic-project-year" aria-hidden="true">2023</div>
                 <div class="academic-project-content">
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
@@ -724,7 +838,6 @@
                   <div class="academic-project-description">
                     Developed an AI-based-voice controlled over-the-internet
                     Automatic Warehouse Switching and Monitoring system.
-                    Real-time Weather Monitoring and Forecasting system.
                   </div>
                 </div>
               </div>
@@ -770,9 +883,39 @@
     document.addEventListener("DOMContentLoaded", function () {
       var projectCards = document.querySelectorAll(".academic-project");
 
+      function flashCard(card) {
+        if (!card) return;
+        card.classList.remove("is-target");
+        // force reflow so the animation can restart
+        void card.offsetWidth;
+        card.classList.add("is-target");
+        card.addEventListener(
+          "animationend",
+          function () {
+            card.classList.remove("is-target");
+          },
+          { once: true }
+        );
+      }
+
+      function fallbackCopy(text) {
+        var ta = document.createElement("textarea");
+        ta.value = text;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "absolute";
+        ta.style.left = "-9999px";
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+          document.execCommand("copy");
+        } catch (e) {}
+        document.body.removeChild(ta);
+      }
+
       projectCards.forEach(function (projectCard) {
         var title = projectCard.querySelector(".academic-project-title");
         var githubLink = projectCard.querySelector(".academic-project-github");
+        var projectId = projectCard.id;
 
         if (!title || !githubLink || title.querySelector("a")) {
           return;
@@ -792,7 +935,85 @@
 
         title.textContent = "";
         title.appendChild(titleLink);
+
+        if (!projectId) return;
+
+        var header = projectCard.querySelector(".academic-project-header");
+        if (!header) return;
+
+        var shareBtn = document.createElement("button");
+        shareBtn.type = "button";
+        shareBtn.className = "academic-project-share";
+        shareBtn.setAttribute("data-project-id", projectId);
+        var titleText = titleLink.textContent || projectId;
+        shareBtn.setAttribute("aria-label", "Copy link to " + titleText);
+        shareBtn.innerHTML =
+          '<i class="fas fa-link" aria-hidden="true"></i><span>Copy link</span>';
+
+        shareBtn.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          var url =
+            window.location.origin +
+            window.location.pathname +
+            "#" +
+            projectId;
+          var labelEl = shareBtn.querySelector("span");
+
+          var showCopied = function () {
+            if (labelEl) labelEl.textContent = "\u2713 Copied!";
+            shareBtn.classList.add("is-copied");
+            setTimeout(function () {
+              if (labelEl) labelEl.textContent = "Copy link";
+              shareBtn.classList.remove("is-copied");
+            }, 1500);
+          };
+
+          if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(url).then(
+              function () {
+                showCopied();
+              },
+              function () {
+                fallbackCopy(url);
+                showCopied();
+              }
+            );
+          } else {
+            fallbackCopy(url);
+            showCopied();
+          }
+
+          if (window.location.hash !== "#" + projectId) {
+            window.location.hash = projectId;
+          } else {
+            flashCard(projectCard);
+          }
+        });
+
+        header.appendChild(shareBtn);
       });
     });
+
+    function highlightInitialTarget() {
+      if (!window.location.hash) return;
+      var card = document.querySelector(window.location.hash);
+      if (!card || !card.classList.contains("academic-project")) return;
+      card.classList.remove("is-target");
+      void card.offsetWidth;
+      card.classList.add("is-target");
+      card.addEventListener(
+        "animationend",
+        function () {
+          card.classList.remove("is-target");
+        },
+        { once: true }
+      );
+    }
+
+    if (document.readyState === "complete") {
+      highlightInitialTarget();
+    } else {
+      window.addEventListener("load", highlightInitialTarget);
+    }
   </script>
 </html>
