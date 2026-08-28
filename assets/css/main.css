@@ -167,7 +167,7 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 .academic-project-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 0.5rem;
   gap: 1rem;
 }
@@ -230,6 +230,10 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
   margin-left: 0.25rem;
 }
 
+.academic-project-field .academic-tech-tag {
+  font-size: clamp(0.7rem, 0.6rem + 0.4vw, 0.8rem);
+}
+
 /* Description with overlay effect */
 .academic-project-description {
   color: #666666;
@@ -286,7 +290,7 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
   }
   
   .academic-project-tech {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
   
   .academic-project-description {

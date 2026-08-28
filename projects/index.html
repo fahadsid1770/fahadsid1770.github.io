@@ -64,11 +64,27 @@
     <style>
       .academic-project { scroll-margin-top: 80px; }
       .academic-project.is-target { animation: project-flash 1.6s ease-out 1; }
+      .project-links {
+        display: inline-flex;
+        gap: 0.5rem;
+        align-items: center;
+        vertical-align: middle;
+        margin-left: 0.5rem;
+      }
+      @media (max-width: 480px) {
+        .project-links {
+          display: inline-flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.3rem;
+          margin-left: 0;
+          margin-top: 0.25rem;
+        }
+      }
       .academic-project-share {
         display: inline-flex;
         align-items: center;
         gap: 0.3rem;
-        margin-left: 0.5rem;
         padding: 0.1rem 0.4rem;
         font-size: 0.85em;
         color: inherit;
@@ -78,10 +94,31 @@
         cursor: pointer;
         opacity: 0.7;
         text-decoration: none;
+        vertical-align: middle;
       }
       .academic-project-share:hover { opacity: 1; }
       .academic-project-share:focus { outline: 2px solid currentColor; outline-offset: 2px; }
       .academic-project-share.is-copied { opacity: 1; }
+      .academic-project-github {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        padding: 0.1rem 0.4rem;
+        font-size: 0.85em;
+        color: inherit;
+        background: transparent;
+        border: 1px solid currentColor;
+        border-radius: 3px;
+        text-decoration: none;
+        opacity: 0.7;
+        vertical-align: middle;
+      }
+      .academic-project-github:hover { opacity: 1; }
+      .academic-project-field { margin-bottom: 0.35rem; }
+      .academic-project-field .academic-tech-tag { font-size: clamp(0.75rem, 0.65rem + 0.5vw, 0.85rem) !important; }
+      .academic-project-header {
+        align-items: center !important;
+      }
       @keyframes project-flash {
         0%   { box-shadow: inset 4px 0 0 0 #2a7ae2, 0 0 0 0 rgba(42, 122, 226, 0.25); background-color: rgba(42, 122, 226, 0.08); }
         100% { box-shadow: none; background-color: transparent; }
@@ -211,7 +248,7 @@
             "
           >
             <em
-              >I did numerous projects which spans across the area of autonomou
+              >I did numerous projects which spans across the area of Vautonomou
               system, Machine Learning, Natural Language Processing, and
               Computer Vision covering AI for Healthcare, LLMs, Cybersecurity,
               Edge AI, Biomedical usecases, and Machine Learning with IoT.</em
@@ -225,24 +262,30 @@
               id="sensor-aware-adaptive-linear-trajectory-model"
               class="academic-project"
               tabindex="0"
-              aria-label="Sensor-Aware Adaptive Linear Trajectory Model project"
+              aria-label="Sensor-Aware Adaptive Linear Trajectory Model project — Autonomous Systems"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2026</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Autonomous Systems</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       Sensor-Aware Adaptive Linear Trajectory Model to Find
                       Optimal Sensor Position for Evasive Targets.
                     </h3>
-                    <a
-                      href="https://github.com/fahadsid1770/Sensor-Aware-Adaptive-Linear-Trajectory-Model"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/Sensor-Aware-Adaptive-Linear-Trajectory-Model"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Python</span>
@@ -269,21 +312,27 @@
               id="droneseg"
               class="academic-project"
               tabindex="0"
-              aria-label="DroneSeg project"
+              aria-label="DroneSeg project — Computer Vision"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2026</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Computer Vision</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">DroneSeg</h3>
-                    <a
-                      href="https://github.com/fahadsid1770/droneseg"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/droneseg"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Python</span>
@@ -310,21 +359,28 @@
               id="arscaner"
               class="academic-project"
               tabindex="0"
-              aria-label="ARScaner project"
+              aria-label="ARScaner project — Computer Vision, Mobile / AR"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2026</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Computer Vision</span>
+                    <span class="academic-tech-tag">Mobile / AR</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">ARScaner</h3>
-                    <a
-                      href="https://github.com/fahadsid1770/ARScaner"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/ARScaner"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">SwiftUI</span>
@@ -351,23 +407,30 @@
               id="aiot-based-smart-fridge"
               class="academic-project"
               tabindex="0"
-              aria-label="AIOT-Based-Smart-Fridge project"
+              aria-label="AIOT-Based-Smart-Fridge project — IoT, Edge AI"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2026</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">IoT</span>
+                    <span class="academic-tech-tag">Edge AI</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       AIOT-Based-Smart-Fridge
                     </h3>
-                    <a
-                      href="https://github.com/fahadsid1770/AIOT-Based-Smart-Fridge.git"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/AIOT-Based-Smart-Fridge.git"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Raspberry Pi 4B x3</span>
@@ -393,23 +456,29 @@
               id="voice-command-fingerprinting"
               class="academic-project"
               tabindex="0"
-              aria-label="Voice Command Fingerprinting - Attack and Defense project"
+              aria-label="Voice Command Fingerprinting - Attack and Defense project — Cybersecurity"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2026</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Cybersecurity</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       Voice Command Fingerprinting - Attack and Defense
                     </h3>
-                    <a
-                      href="https://github.com/fahadsid1770/voice_command_fingerprinting.git"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/voice_command_fingerprinting.git"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Wireshark</span>
@@ -431,24 +500,31 @@
               id="medconvformer"
               class="academic-project"
               tabindex="0"
-              aria-label="MedConvFormer : Hybrid CNN-Transformer to Distinguish COVID-19, Normal, and Pneumonia from chest X-ray images project"
+              aria-label="MedConvFormer : Hybrid CNN-Transformer to Distinguish COVID-19, Normal, and Pneumonia from chest X-ray images project — AI for Healthcare, Computer Vision"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2025</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">AI for Healthcare</span>
+                    <span class="academic-tech-tag">Computer Vision</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       MedConvFormer : Hybrid CNN-Transformer to Distinguish
                       COVID-19, Normal, and Pneumonia from chest X-ray images
                     </h3>
-                    <a
-                      href="https://github.com/fahadsid1770/MedConvFormer.git"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/MedConvFormer.git"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Python</span>
@@ -472,23 +548,30 @@
               id="walton-ai"
               class="academic-project"
               tabindex="0"
-              aria-label="Walton-AI: Local conversational AI and Cosine Similarity based Knowledge Management System project"
+              aria-label="Walton-AI: Local conversational AI and Cosine Similarity based Knowledge Management System project — Large Language Model / RAG, Edge AI"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2025</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Large Language Model / RAG</span>
+                    <span class="academic-tech-tag">Edge AI</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       Walton-AI: Local conversational AI and Cosine Similarity
                       based Knowledge Management System
                     </h3>
-                    <a
-                      href="#"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="#"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Python</span>
@@ -512,23 +595,29 @@
               id="altm"
               class="academic-project"
               tabindex="0"
-              aria-label="AI Long-Term Memory (ALTM) project"
+              aria-label="AI Long-Term Memory (ALTM) project — Large Language Model / RAG"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2025</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Large Language Model / RAG</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       AI Long-Term Memory (ALTM)
                     </h3>
-                    <a
-                      href="https://github.com/fahadsid1770/AI-Long-Term-Memory.git"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/AI-Long-Term-Memory.git"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Python</span>
@@ -549,24 +638,31 @@
               id="chest-xray-vlm"
               class="academic-project"
               tabindex="0"
-              aria-label="Automated Chest X-Ray Report Generation Using Vision-Language Models project"
+              aria-label="Automated Chest X-Ray Report Generation Using Vision-Language Models project — AI for Healthcare, Computer Vision"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2025</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">AI for Healthcare</span>
+                    <span class="academic-tech-tag">Computer Vision</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       Automated Chest X-Ray Report Generation Using
                       Vision-Language Models
                     </h3>
-                    <a
-                      href="https://github.com/fahadsid1770/Automated-Chest-X-Ray-Report-Generation-Using-Vision-Language-Models.git"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/Automated-Chest-X-Ray-Report-Generation-Using-Vision-Language-Models.git"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Python</span>
@@ -588,24 +684,30 @@
               id="image-pattern-detection-recognition"
               class="academic-project"
               tabindex="0"
-              aria-label="Real Time Image Pattern Detection and Recognition using OpenCV and CLIP Embeddings project"
+              aria-label="Real Time Image Pattern Detection and Recognition using OpenCV and CLIP Embeddings project — Computer Vision"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2025</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Computer Vision</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       Real Time Image Pattern Detection and Recognition using
                       OpenCV and CLIP Embeddings
                     </h3>
-                    <a
-                      href="https://github.com/fahadsid1770/image-pattern-detection-recognition.git"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/image-pattern-detection-recognition.git"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">OpenCV</span>
@@ -628,24 +730,31 @@
               id="hateful-meme-fusion"
               class="academic-project"
               tabindex="0"
-              aria-label="Early and Late Fusion For Multimedia Hateful Meme Classification project"
+              aria-label="Early and Late Fusion For Multimodal Hateful Meme Classification project — Computer Vision, Natural Language Processing"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2025</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Computer Vision</span>
+                    <span class="academic-tech-tag">Natural Language Processing</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
-                      Early and Late Fusion For Multimedia Hateful Meme
+                      Early and Late Fusion For Multimodal Hateful Meme
                       Classification
                     </h3>
-                    <a
-                      href="https://github.com/fahadsid1770/Early-and-Late-Fusion-For-Multimedia-Hateful-Meme-Classification"
-                      target="_blank"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/Early-and-Late-Fusion-For-Multimodal-Hateful-Meme-Classification"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Python</span>
@@ -669,23 +778,29 @@
               id="bangla-news-fusion"
               class="academic-project"
               tabindex="0"
-              aria-label="Multi-class Bangla News Classification using Early Fusion and Late Fusion project"
+              aria-label="Multi-class Bangla News Classification using Early Fusion and Late Fusion project — Natural Language Processing"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2022</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Natural Language Processing</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       Multi-class Bangla News Classification using Early Fusion
                       and Late Fusion
                     </h3>
-                    <a
-                      href="#"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="#"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Python</span>
@@ -706,23 +821,19 @@
               id="sram-cell-vlsi"
               class="academic-project"
               tabindex="0"
-              aria-label="Design and Analysis of 1-Bit SRAM Cell using Cadence Virtuos, VLSI"
+              aria-label="Design and Analysis of 1-Bit SRAM Cell using Cadence Virtuos, VLSI — VLSI / Chip Design"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2024</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">VLSI / Chip Design</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       Design and Analysis of 1-Bit SRAM Cell using Cadence
                       Virtuos, VLSI
                     </h3>
-                    <a
-                      href="#"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Cadence Virtuoso</span>
@@ -760,23 +871,19 @@
               id="sap-1-microprocessor"
               class="academic-project"
               tabindex="0"
-              aria-label="Control Sequencer for SAP-1 Architecture project"
+              aria-label="Control Sequencer for SAP-1 Architecture project — VLSI / Chip Design"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2024</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">VLSI / Chip Design</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       Design and Implementation of an SAP-1 Microprocessor with
                       Assembler
                     </h3>
-                    <a
-                      href="#"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Cadence Virtuoso</span>
@@ -810,22 +917,29 @@
               id="microcontroller-iot"
               class="academic-project"
               tabindex="0"
-              aria-label="Microcontroller and IoT Projects project"
+              aria-label="Microcontroller and IoT Projects project — IoT, Autonomous Systems"
             >
               <div class="academic-project-row">
                 <div class="academic-project-year" aria-hidden="true">2023</div>
                 <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">IoT</span>
+                    <span class="academic-tech-tag">Autonomous Systems</span>
+                  </div>
                   <div class="academic-project-header">
                     <h3 class="academic-project-title">
                       Microcontroller and IoT Projects
                     </h3>
-                    <a
-                      href="#"
-                      class="academic-project-github"
-                      aria-label="View on GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
+                    <div class="project-links">
+                      <a
+                        href="#"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
                   </div>
                   <div class="academic-project-tech">
                     <span class="academic-tech-tag">Mosquitto MQTT</span>
@@ -916,36 +1030,41 @@
         var title = projectCard.querySelector(".academic-project-title");
         var githubLink = projectCard.querySelector(".academic-project-github");
         var projectId = projectCard.id;
+        var header = projectCard.querySelector(".academic-project-header");
+        if (!header) return;
 
-        if (!title || !githubLink || title.querySelector("a")) {
+        if (header.hasAttribute('data-no-links')) {
           return;
         }
 
-        var titleLink = document.createElement("a");
-        titleLink.href = githubLink.getAttribute("href") || "#";
-        titleLink.className = "academic-project-title-link";
-        titleLink.textContent = title.textContent.trim();
-
-        if (githubLink.getAttribute("target")) {
-          titleLink.target = githubLink.getAttribute("target");
-        }
-        if (titleLink.target === "_blank") {
-          titleLink.rel = "noopener noreferrer";
+        if (!title) {
+          return;
         }
 
-        title.textContent = "";
-        title.appendChild(titleLink);
+        if (githubLink && !title.querySelector("a")) {
+          var titleLink = document.createElement("a");
+          titleLink.href = githubLink.getAttribute("href") || "#";
+          titleLink.className = "academic-project-title-link";
+          titleLink.textContent = title.textContent.trim();
+
+          if (githubLink.getAttribute("target")) {
+            titleLink.target = githubLink.getAttribute("target");
+          }
+          if (titleLink.target === "_blank") {
+            titleLink.rel = "noopener noreferrer";
+          }
+
+          title.textContent = "";
+          title.appendChild(titleLink);
+        }
 
         if (!projectId) return;
-
-        var header = projectCard.querySelector(".academic-project-header");
-        if (!header) return;
 
         var shareBtn = document.createElement("button");
         shareBtn.type = "button";
         shareBtn.className = "academic-project-share";
         shareBtn.setAttribute("data-project-id", projectId);
-        var titleText = titleLink.textContent || projectId;
+        var titleText = title ? title.textContent.trim() : projectId;
         shareBtn.setAttribute("aria-label", "Copy link to " + titleText);
         shareBtn.innerHTML =
           '<i class="fas fa-link" aria-hidden="true"></i><span>Copy link</span>';
@@ -990,7 +1109,12 @@
           }
         });
 
-        header.appendChild(shareBtn);
+        var projectLinks = header.querySelector(".project-links");
+        if (projectLinks) {
+          projectLinks.appendChild(shareBtn);
+        } else {
+          header.appendChild(shareBtn);
+        }
       });
     });
 
