@@ -257,6 +257,51 @@
         </header>
         <article>
           <div class="academic-projects-list">
+
+            <!--attention-mechanism-in-hardware-using-verilog-->
+            <article
+              id="attention-mechanism-in-hardware-using-verilog"
+              class="academic-project"
+              tabindex="0"
+              aria-label="attention-mechanism-in-hardware-using-verilog"
+            >
+              <div class="academic-project-row">
+                <div class="academic-project-year" aria-hidden="true">2026</div>
+                <div class="academic-project-content">
+                  <div class="academic-project-field">
+                    <span class="academic-tech-tag">Hardware Design</span>
+                  </div>
+                  <div class="academic-project-header">
+                    <h3 class="academic-project-title">
+                      Attention Mechanism in Hardware using Verilog
+                    </h3>
+                    </h3>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/fahadsid1770/attention-mechanism-in-hardware-using-verilog.git"
+                        target="_blank"
+                        class="academic-project-github"
+                        aria-label="View on GitHub"
+                      >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="academic-project-tech">
+                    <span class="academic-tech-tag">Verilog</span>
+                    <span class="academic-tech-tag">Attention Mechanism</span>
+                    <span class="academic-tech-tag">Hardware Design</span>
+                    <span class="academic-tech-tag">AI-Accelerator</span>
+                  </div>
+                  <div class="academic-project-description">
+                    This project implements the transformer scaled dot-product attention kernel:  Attention(Q,K,V)=softmax(QKᵀ/√d_k)·V , directly in synthesizable Verilog for FPGA/ASIC targets. The design processes a 4×8 (sequence length × embedding dimension) tokenized input in Q4.4 fixed-point arithmetic (8-bit signed with 4 fractional bits), computing the full attention computation through a 12-phase finite state machine (FSM) that time-multiplexes a single 20-bit signed MAC unit across all five matrix multiplications (Q, K, V projections; QKᵀ scoring; O=WV output). The softmax uses a 9-entry piecewise LUT for exp(x) with row-max subtraction for numerical stability, and a combinational integer divider for normalization.
+                  </div>
+                </div>
+              </div>
+            </article>
+
+
             <!-- Sensor-Aware Adaptive Linear Trajectory Model -->
             <article
               id="sensor-aware-adaptive-linear-trajectory-model"
