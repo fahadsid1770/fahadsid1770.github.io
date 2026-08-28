@@ -1,0 +1,5 @@
+.kilo
+venv/
+.venv/
+.env
+env
